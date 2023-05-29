@@ -106,10 +106,19 @@ python3 Code/execute_preproc_repeated_edges.py
 Once all is preprocessed need to run:
 
 ```
-Code/execute4generalization.py 
+python3 Code/execute4generalization.py 
 ```
 
 This code generates a heatmap similar to the one presented in the article.
 
 
 ## Add baselines here as well and generalization baselines
+
+
+
+## GridSearch
+
+In folder GridSearchCodes/ example of the code used to generate the grid is presented, can be modified for selecting hyperparameters. 
+
+- GridSearchCodes/gridsearch_GeNNius.py: Contains the functions of the model
+- GridSearchCodes/generate_grid.py: calls the model specifying hyperparameters
