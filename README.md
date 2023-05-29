@@ -91,6 +91,29 @@ Our model works with a embedding dimension of 17.
 However, the code alows to test different embedding dimensions easily.
 
 
+## Testing the capabilities of inferring unknown interactions
+
+First, this code searches for each dataset the shared edges and also saves a tsv file with those edges for validation, needed in  validation script. 
+
+
+```
+python3 Code/compare_dtis_retrieve_unknown.py
+```
+
+Once we have the files 
+
+```
+df_validation_for_{database1.lower()}_originally_*.tsv
+```
+
+We can run 
+```
+python3 Code/validation.py
+```
+in it need to specify the dti dataset in L126.
+Will retrieve the results in a tsv file.
+
+
 
 ## Testing generalization capabilities of GeNNius
 
