@@ -157,16 +157,13 @@ tsne_pos_neg_val.py
 Folder Baselines/
 includes pretrain protein embeddings
 
-- simple_baselines/ 
-includes the code for logistic regresion and random forest, the results in tsv of the gridsearch and of the model, and the generalization heatmap of the later (results in baseline_generalization/). 
+- simple_baselines/: includes the code for logistic regresion and random forest, the results in tsv of the gridsearch and of the model, and the generalization heatmap of the later (results in baseline_generalization/). 
 
 
-- feature_corr/
-includes code to check correlations in features and heatmap of results
+- feature_corr/: includes code to check correlations in features and heatmap of results
 
 
-- pretrain_protemb/
-includes the test with protein embeddings downloades from uniprot
+- pretrain_protemb/: includes the test with protein embeddings downloades from uniprot
 ```
 Code/data_preprocessing_prot.py # preprocess the code by downloading from .h5 file from uniprot
 ```
