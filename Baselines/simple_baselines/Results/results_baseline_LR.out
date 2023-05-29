@@ -1,0 +1,1489 @@
+Executing Linear regression For drugbank & doing Grid Search
+Fitting 10 folds for each of 84 candidates, totalling 840 fits
+[CV 2/10] END C=1.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=1.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.618) total time= 2.0min
+[CV 8/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.617) total time=   2.0s
+[CV 2/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.616) total time=   3.2s
+[CV 8/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.617) total time=   3.8s
+[CV 5/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.620) total time=   3.0s
+[CV 6/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.629) total time= 6.6min
+[CV 1/10] END C=1000.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.624, test=0.606) total time=   4.4s
+[CV 2/10] END C=1000.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.614) total time=   2.9s
+[CV 3/10] END C=1000.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.629) total time=   2.6s
+[CV 5/10] END C=1000.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.619) total time=   2.8s
+[CV 8/10] END C=1000.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.622) total time=   2.2s
+[CV 1/10] END C=1000.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.624, test=0.606) total time=  10.5s
+[CV 6/10] END C=1000.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.620, test=0.630) total time=  14.2s
+[CV 3/10] END C=1000.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.629) total time=   4.6s
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+[CV 9/10] END C=1.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.619, test=0.617) total time=   1.9s
+[CV 9/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.622) total time=   1.2s
+[CV 8/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.637) total time=   1.0s
+[CV 10/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.637) total time=   0.9s
+[CV 10/10] END C=10.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.630) total time= 9.0min
+[CV 5/10] END C=1000.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.619) total time=   5.9s
+[CV 9/10] END C=1000.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.616) total time=   4.6s
+[CV 10/10] END C=1000.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.631) total time=   4.7s
+[CV 2/10] END C=1000.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.614) total time=   2.3s
+[CV 6/10] END C=1000.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.620, test=0.630) total time=   2.3s
+[CV 8/10] END C=1000.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.622) total time=   2.0s
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 3/10] END C=1.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.619, test=0.627) total time=   2.7s
+[CV 4/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.614) total time= 6.5min
+[CV 6/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.620, test=0.632) total time=   9.8s
+[CV 8/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.621) total time=   3.7s
+[CV 2/10] END C=1000.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.617) total time= 2.7min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 2/10] END C=1.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.618, test=0.601) total time=   2.7s
+[CV 2/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.608) total time=   2.3s
+[CV 6/10] END C=10.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.620, test=0.631) total time=   2.2s
+[CV 10/10] END C=10.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.632) total time=   3.4s
+[CV 1/10] END C=10.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.607) total time=   1.7s
+[CV 5/10] END C=10.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.617) total time=   1.0s
+[CV 8/10] END C=10.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.617) total time=   1.0s
+[CV 10/10] END C=10.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.633) total time=   1.9s
+[CV 4/10] END C=10.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.624) total time=   4.5s
+[CV 8/10] END C=10.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.617) total time=   3.3s
+[CV 2/10] END C=10.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.613) total time=   2.1s
+[CV 4/10] END C=10.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.623) total time=   2.3s
+[CV 8/10] END C=10.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.617) total time=   1.8s
+[CV 1/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.623, test=0.605) total time= 5.8min
+[CV 9/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.617) total time=   3.0s
+[CV 3/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.628) total time=  11.8s
+[CV 1/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.606) total time=   4.1s
+[CV 5/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.621) total time=   5.2s
+[CV 6/10] END C=1000.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.619, test=0.629) total time= 2.1min
+[CV 6/10] END C=1000.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.620, test=0.630) total time=   1.7s
+[CV 7/10] END C=1000.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.611) total time=   1.9s
+[CV 10/10] END C=1000.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.631) total time=   2.0s
+[CV 3/10] END C=1000.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.629) total time=   6.3s
+[CV 4/10] END C=1000.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.623) total time=   6.2s
+[CV 8/10] END C=1000.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.623) total time=   6.8s
+[CV 1/10] END C=1000.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.624, test=0.606) total time=   3.9s
+[CV 4/10] END C=1000.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.623) total time=   2.1s
+[CV 7/10] END C=1000.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.611) total time=   2.1s
+[CV 10/10] END C=1000.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.631) total time=   2.7s
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 7/10] END C=1.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.620, test=0.611) total time=   2.5s
+[CV 3/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.622) total time=   1.9s
+[CV 3/10] END C=10.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.629) total time=   2.2s
+[CV 8/10] END C=10.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.617) total time=   3.1s
+[CV 8/10] END C=10.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.622) total time= 8.7min
+[CV 4/10] END C=1000.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.623) total time=   4.3s
+[CV 9/10] END C=1000.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.616) total time=   3.0s
+[CV 2/10] END C=1000.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.614) total time=  11.8s
+[CV 7/10] END C=1000.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.611) total time=  11.7s
+[CV 5/10] END C=1000.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.619) total time=   3.6s
+[CV 9/10] END C=1000.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.616) total time=   3.7s
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+[CV 1/10] END C=1.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.620, test=0.604) total time=   0.8s
+[CV 10/10] END C=1.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.619, test=0.633) total time=   0.7s
+[CV 7/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.614) total time=   1.4s
+[CV 2/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.612) total time=   1.8s
+[CV 8/10] END C=10.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.617) total time=   2.3s
+[CV 4/10] END C=10.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.623) total time=   2.0s
+[CV 7/10] END C=10.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=10.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=10.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=10.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=10.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=10.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.621) total time= 9.7min
+[CV 5/10] END C=1.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=1.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.616, test=0.629) total time=   2.0s
+[CV 5/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.621) total time=   1.4s
+[CV 10/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.637) total time=   1.9s
+[CV 10/10] END C=10.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.633) total time=   2.2s
+[CV 5/10] END C=10.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.618) total time=   2.4s
+[CV 3/10] END C=10.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.628) total time= 9.8min
+[CV 1/10] END C=1.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.620, test=0.603) total time=   1.2s
+[CV 1/10] END C=1.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.620, test=0.604) total time=   0.6s
+[CV 4/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.622) total time=   1.0s
+[CV 9/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.621) total time= 2.1min
+[CV 7/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.623, test=0.612) total time= 7.8min
+[CV 10/10] END C=1.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.636) total time= 1.7min
+[CV 10/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.630) total time= 4.6min
+[CV 1/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.606) total time=   2.5s
+[CV 4/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.620, test=0.623) total time=   3.3s
+[CV 7/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.610) total time=   1.8s
+[CV 10/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.631) total time=   2.6s
+[CV 2/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.613) total time=   8.9s
+[CV 9/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.616) total time=   8.0s
+[CV 6/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.619, test=0.632) total time=   4.5s
+[CV 4/10] END C=1000.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.621) total time= 3.3min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 2/10] END C=1.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.618, test=0.602) total time=   1.1s
+[CV 7/10] END C=1.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.620, test=0.610) total time=   0.7s
+[CV 3/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.627) total time=   1.4s
+[CV 7/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.614) total time=   3.2s
+[CV 4/10] END C=10.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.623) total time=   2.4s
+[CV 7/10] END C=10.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.611) total time=   2.5s
+[CV 10/10] END C=10.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.630) total time= 9.9min
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+[CV 4/10] END C=1.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=1.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.618, test=0.602) total time=   0.8s
+[CV 6/10] END C=1.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.616, test=0.629) total time=   0.6s
+[CV 7/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.614) total time=   1.0s
+[CV 1/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.608) total time=   1.6s
+[CV 4/10] END C=10.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=10.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=10.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=10.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.622) total time=10.2min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 6/10] END C=1.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.616, test=0.629) total time=   0.9s
+[CV 9/10] END C=1.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.619, test=0.617) total time=   0.5s
+[CV 8/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.630) total time= 3.5min
+[CV 5/10] END C=100.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.622) total time=   2.0s
+[CV 1/10] END C=100.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=100.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=100.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=100.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=100.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=100.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=100.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=100.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=100.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=100.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=100.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=100.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=100.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=100.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=100.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=100.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=100.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=100.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=100.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.624, test=0.605) total time= 6.7min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 1/10] END C=1.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=1.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=1.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=1.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=1.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=1.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.621) total time= 1.0min
+[CV 5/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.620) total time= 9.4min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 10/10] END C=1.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.619, test=0.633) total time=   2.0s
+[CV 10/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.632) total time= 4.1min
+[CV 9/10] END C=100.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.618) total time=   1.5s
+[CV 2/10] END C=100.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.613) total time=   4.9s
+[CV 5/10] END C=100.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.622) total time=   4.9s
+[CV 10/10] END C=100.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.631) total time=   5.1s
+[CV 10/10] END C=100.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.631) total time=   1.3s
+[CV 3/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.629) total time= 6.2min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 9/10] END C=1.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.621) total time= 1.1min
+[CV 6/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.620, test=0.630) total time= 1.8min
+[CV 7/10] END C=100.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.623, test=0.611) total time= 7.8min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 6/10] END C=1.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.616, test=0.629) total time=   1.0s
+[CV 2/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.608) total time=   1.0s
+[CV 5/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.621) total time= 4.2min
+[CV 9/10] END C=100.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.618) total time=   2.9s
+[CV 3/10] END C=100.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.620, test=0.629) total time=   1.9s
+[CV 7/10] END C=100.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.609) total time=   1.4s
+[CV 7/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.623, test=0.605) total time= 2.7min
+[CV 9/10] END C=1000.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.616) total time= 3.7min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 7/10] END C=1.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=1.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.619, test=0.627) total time=   1.9s
+[CV 7/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.614) total time=   1.8s
+[CV 9/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.622) total time=   0.7s
+[CV 7/10] END C=10.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=10.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=10.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=10.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.613) total time=   1.3s
+[CV 5/10] END C=10.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.617) total time=   3.1s
+[CV 1/10] END C=10.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=10.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=10.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=10.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=10.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=10.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=10.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=10.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=10.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.615) total time=10.7min
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+[CV 7/10] END C=1.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=1.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.606) total time= 2.4min
+[CV 10/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.630) total time= 4.7min
+[CV 8/10] END C=1000.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.623) total time= 3.8min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 6/10] END C=1.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.620, test=0.630) total time= 2.7min
+[CV 2/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.615) total time=   3.0s
+[CV 7/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.610) total time=   2.9s
+[CV 4/10] END C=100.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.622) total time= 4.0min
+[CV 5/10] END C=1000.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.620) total time= 4.2min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 3/10] END C=1.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.619, test=0.627) total time=   1.1s
+[CV 5/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.621) total time= 2.2min
+[CV 6/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.620, test=0.630) total time= 1.7min
+[CV 1/10] END C=100.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.606) total time=   1.2s
+[CV 2/10] END C=100.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.612) total time=   1.1s
+[CV 3/10] END C=100.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.620, test=0.629) total time=   1.5s
+[CV 4/10] END C=100.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.623) total time=   1.1s
+[CV 5/10] END C=100.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.622) total time=   1.1s
+[CV 6/10] END C=100.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.619, test=0.630) total time=   1.3s
+[CV 7/10] END C=100.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.609) total time=   1.0s
+[CV 8/10] END C=100.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.618) total time=   1.2s
+[CV 10/10] END C=100.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.631) total time=   1.3s
+[CV 3/10] END C=100.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.629) total time=   5.1s
+[CV 6/10] END C=100.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.619, test=0.630) total time=   5.3s
+[CV 1/10] END C=100.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.606) total time=   2.0s
+[CV 4/10] END C=100.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.623) total time=   2.2s
+[CV 8/10] END C=100.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.618) total time=   2.1s
+[CV 4/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.622) total time= 6.7min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 7/10] END C=1.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.620, test=0.611) total time=   1.6s
+[CV 2/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.612) total time=   0.7s
+[CV 5/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.630) total time=11.2min
+[CV 1/10] END C=1.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=1.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.616, test=0.629) total time=   0.4s
+[CV 5/10] END C=1.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.618, test=0.620) total time=   0.6s
+[CV 8/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.621) total time=   1.0s
+[CV 10/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.619, test=0.634) total time=   2.4s
+[CV 2/10] END C=10.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.613) total time=   1.8s
+[CV 9/10] END C=10.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.622) total time=   3.2s
+[CV 9/10] END C=10.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.623, test=0.617) total time=11.4min
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+[CV 4/10] END C=1.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.622) total time= 2.9min
+[CV 6/10] END C=100.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.619, test=0.629) total time= 8.8min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 9/10] END C=1.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.618, test=0.618) total time=   0.7s
+[CV 4/10] END C=1.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.619, test=0.617) total time=   0.5s
+[CV 6/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.620) total time=   1.0s
+[CV 2/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.612) total time=   0.9s
+[CV 5/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.621) total time=   1.1s
+[CV 5/10] END C=10.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.621) total time= 2.2min
+[CV 1/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.606) total time=   1.3s
+[CV 2/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.615) total time=   1.1s
+[CV 3/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.629) total time=   1.1s
+[CV 4/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.623) total time=   1.2s
+[CV 5/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.620) total time=   2.8s
+[CV 6/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.619, test=0.632) total time=   1.9s
+[CV 8/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.617) total time=   1.6s
+[CV 10/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.632) total time=   1.8s
+[CV 2/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.615) total time=   5.3s
+[CV 6/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.619, test=0.632) total time=   3.4s
+[CV 10/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.632) total time=   4.3s
+[CV 9/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.619) total time=   1.3s
+[CV 10/10] END C=100.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=100.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.1s
+[CV 6/10] END C=100.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=100.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=100.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.617) total time= 2.2min
+[CV 10/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.631) total time= 1.3min
+[CV 2/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.614) total time=   1.4s
+[CV 3/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.628) total time=   1.4s
+[CV 5/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.621) total time=   1.3s
+[CV 6/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.619, test=0.632) total time=   1.4s
+[CV 8/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.621) total time=   1.2s
+[CV 1/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.606) total time=   4.8s
+[CV 4/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.622) total time=   4.5s
+[CV 5/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.621) total time=   4.4s
+[CV 10/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.631) total time=   4.4s
+[CV 4/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.620, test=0.623) total time=   1.8s
+[CV 9/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.617) total time=   1.6s
+[CV 1/10] END C=1000.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=1000.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=1000.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=1000.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=1000.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=1000.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=1000.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=1000.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=1000.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=1000.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=1000.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=1000.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=1000.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=1000.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=1000.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=1000.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=1000.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=1000.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=1000.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=1000.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=1000.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.623, test=0.606) total time= 5.3min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 3/10] END C=1.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=1.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=1.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=1.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=1.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.620, test=0.630) total time= 1.8min
+[CV 1/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.606) total time=   1.3s
+[CV 2/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.615) total time=   1.4s
+[CV 3/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.629) total time=   1.3s
+[CV 4/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.623) total time=   1.4s
+[CV 5/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.620) total time=   1.2s
+[CV 6/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.619, test=0.632) total time=   1.1s
+[CV 10/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.632) total time=   1.3s
+[CV 3/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.632) total time=   1.6s
+[CV 5/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.619) total time=   1.4s
+[CV 7/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.610) total time=   1.5s
+[CV 1/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.606) total time=   1.1s
+[CV 3/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.629) total time=   1.4s
+[CV 6/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.619, test=0.632) total time=   1.2s
+[CV 9/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.619) total time=   1.8s
+[CV 2/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.616) total time= 5.0min
+[CV 10/10] END C=1000.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.631) total time= 5.1min
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 5/10] END C=1.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.618, test=0.620) total time=   0.8s
+[CV 6/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.619, test=0.634) total time=   1.5s
+[CV 9/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.622) total time=   1.2s
+[CV 3/10] END C=10.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=10.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=10.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=10.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.624, test=0.605) total time=12.3min
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 5/10] END C=1.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=1.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=1.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.615) total time= 2.3min
+[CV 9/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.616) total time= 4.3min
+[CV 8/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.621) total time=   5.3s
+[CV 2/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.614) total time=   3.2s
+[CV 7/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.610) total time=   4.3s
+[CV 3/10] END C=1000.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.629) total time= 6.5min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 4/10] END C=1.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.619, test=0.617) total time=   0.8s
+[CV 7/10] END C=1.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.620, test=0.611) total time=   0.7s
+[CV 10/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.621) total time= 4.2min
+[CV 7/10] END C=100.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.609) total time=   4.6s
+[CV 2/10] END C=100.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.612) total time=   2.0s
+[CV 6/10] END C=100.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.619, test=0.630) total time=   1.6s
+[CV 1/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.617) total time= 9.0min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 7/10] END C=1.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.620, test=0.610) total time=   1.6s
+[CV 8/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.620) total time=   1.5s
+[CV 5/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.621) total time=   2.4s
+[CV 1/10] END C=10.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.608) total time=   2.6s
+[CV 6/10] END C=10.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.620, test=0.631) total time=   2.3s
+[CV 7/10] END C=10.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.623, test=0.613) total time=13.3min
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+[CV 8/10] END C=1.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.620, test=0.619) total time=   2.2s
+[CV 9/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.622) total time=   1.3s
+[CV 3/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.627) total time=   1.8s
+[CV 9/10] END C=10.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.623) total time=   1.6s
+[CV 7/10] END C=10.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.612) total time=   1.6s
+[CV 8/10] END C=10.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.617) total time=   2.6s
+[CV 2/10] END C=10.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.613) total time=   2.1s
+[CV 7/10] END C=10.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.611) total time=   2.2s
+[CV 1/10] END C=10.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.608) total time=   3.4s
+[CV 6/10] END C=10.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.620, test=0.631) total time=   5.4s
+[CV 1/10] END C=10.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.607) total time=   2.5s
+[CV 3/10] END C=10.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.629) total time=   1.4s
+[CV 7/10] END C=10.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.611) total time=   2.0s
+[CV 9/10] END C=10.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.623) total time=   2.5s
+[CV 3/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.628) total time= 2.4min
+[CV 9/10] END C=100.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.616) total time=10.6min
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 4/10] END C=1.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=1.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=1.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=1.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.620, test=0.603) total time=   1.5s
+[CV 1/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.624) total time= 3.2min
+[CV 1/10] END C=100.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.606) total time=   1.9s
+[CV 3/10] END C=100.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.620, test=0.629) total time=   3.0s
+[CV 6/10] END C=100.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.619, test=0.630) total time=   3.6s
+[CV 1/10] END C=100.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.624, test=0.607) total time=   2.2s
+[CV 5/10] END C=100.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.618) total time=   2.4s
+[CV 9/10] END C=100.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.618) total time=   2.9s
+[CV 3/10] END C=100.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.620, test=0.629) total time=   4.4s
+[CV 4/10] END C=100.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.622) total time= 3.0min
+[CV 7/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.610) total time=   6.2s
+[CV 3/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.628) total time=   3.4s
+[CV 10/10] END C=316.22776601683796, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.631) total time=   4.3s
+[CV 7/10] END C=1000.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.623, test=0.611) total time= 6.8min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 1/10] END C=1.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.620, test=0.603) total time=   2.4s
+[CV 3/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.628) total time=   2.2s
+[CV 4/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.623) total time=   1.6s
+[CV 7/10] END C=10.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.611) total time=   2.4s
+[CV 3/10] END C=10.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.629) total time=   1.6s
+[CV 10/10] END C=10.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.633) total time=   2.3s
+[CV 3/10] END C=10.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.629) total time=   1.5s
+[CV 6/10] END C=10.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.620, test=0.631) total time=   2.4s
+[CV 2/10] END C=10.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.613) total time=   2.6s
+[CV 5/10] END C=10.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.617) total time=   4.4s
+[CV 9/10] END C=10.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.623) total time=   5.2s
+[CV 6/10] END C=10.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.620, test=0.631) total time=   2.4s
+[CV 1/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.616) total time= 4.1min
+[CV 8/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.624) total time= 9.3min
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 8/10] END C=1.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=1.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=1.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.622) total time= 3.1min
+[CV 10/10] END C=100.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.631) total time=11.2min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 10/10] END C=1.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=1.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.620, test=0.611) total time=   1.8s
+[CV 2/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.612) total time=   1.2s
+[CV 6/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.620, test=0.634) total time=   1.1s
+[CV 9/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.622) total time=   1.4s
+[CV 5/10] END C=10.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.617) total time=   2.4s
+[CV 1/10] END C=10.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.607) total time=   2.4s
+[CV 6/10] END C=10.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=10.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.624, test=0.605) total time=14.1min
+[CV 9/10] END C=1.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.619, test=0.617) total time=   1.6s
+[CV 5/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.620, test=0.634) total time=   1.0s
+[CV 10/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.632) total time= 4.1min
+[CV 1/10] END C=100.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.605) total time=   4.2s
+[CV 4/10] END C=100.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.624) total time=   5.3s
+[CV 8/10] END C=100.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.618) total time=   4.0s
+[CV 5/10] END C=100.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.622) total time=   1.7s
+[CV 9/10] END C=100.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.618) total time=   1.9s
+[CV 5/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.620) total time=11.1min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 3/10] END C=1.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=1.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.619, test=0.617) total time=   1.9s
+[CV 8/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.620) total time=   1.0s
+[CV 8/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.620) total time=   1.7s
+[CV 4/10] END C=10.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.624) total time=   1.6s
+[CV 6/10] END C=10.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.620, test=0.631) total time=   2.9s
+[CV 5/10] END C=10.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=10.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=10.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=10.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=10.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=10.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.622) total time=16.1min
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+[CV 8/10] END C=1.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.620, test=0.620) total time=   0.5s
+[CV 8/10] END C=1.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.620, test=0.619) total time=   1.0s
+[CV 1/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.623, test=0.605) total time= 2.5min
+[CV 7/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.610) total time=   1.2s
+[CV 9/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.619) total time=   1.3s
+[CV 1/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.605) total time=   4.3s
+[CV 5/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.620) total time=   4.6s
+[CV 9/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.619) total time=   3.3s
+[CV 4/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.623) total time=   1.3s
+[CV 6/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.619, test=0.632) total time=   1.4s
+[CV 8/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.617) total time=   1.4s
+[CV 9/10] END C=100.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=100.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=100.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=100.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=100.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=100.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.628) total time= 2.5min
+[CV 10/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.633) total time=   1.4s
+[CV 5/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.621) total time=   1.7s
+[CV 8/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.621) total time=   2.0s
+[CV 4/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.622) total time=23.7min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+[CV 10/10] END C=1.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=1.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=1.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.612) total time= 1.6min
+[CV 8/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.621) total time= 1.7min
+[CV 2/10] END C=100.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.612) total time=   1.6s
+[CV 4/10] END C=100.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.623) total time=   1.2s
+[CV 5/10] END C=100.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.622) total time=   1.1s
+[CV 7/10] END C=100.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.609) total time=   1.1s
+[CV 9/10] END C=100.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.618) total time=   1.1s
+[CV 10/10] END C=100.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.631) total time=   1.5s
+[CV 2/10] END C=100.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.618) total time=   1.4s
+[CV 4/10] END C=100.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.622) total time=   1.5s
+[CV 6/10] END C=100.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.620, test=0.631) total time=   1.3s
+[CV 8/10] END C=100.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.620) total time=   1.5s
+[CV 10/10] END C=100.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.634) total time=   1.3s
+[CV 2/10] END C=100.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.612) total time=   1.7s
+[CV 7/10] END C=100.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.609) total time=   1.5s
+[CV 10/10] END C=100.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.631) total time=   1.2s
+[CV 8/10] END C=100.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=100.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=100.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.617) total time=26.1min
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+[CV 4/10] END C=1.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.618, test=0.616) total time=   2.2s
+[CV 4/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.623) total time=   1.2s
+[CV 3/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.628) total time=   3.4s
+[CV 3/10] END C=10.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.630) total time=   3.2s
+[CV 9/10] END C=10.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.623) total time=   2.6s
+[CV 4/10] END C=10.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.624) total time=   2.4s
+[CV 9/10] END C=10.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.623) total time=   2.3s
+[CV 3/10] END C=10.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.629) total time=   3.6s
+[CV 7/10] END C=10.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.612) total time=   3.0s
+[CV 10/10] END C=10.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.632) total time=   4.8s
+[CV 5/10] END C=10.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.618) total time=   2.4s
+[CV 10/10] END C=10.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.633) total time=   2.6s
+[CV 4/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.622) total time= 3.3min
+[CV 10/10] END C=100.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.631) total time=28.3min
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 2/10] END C=1.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=1.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.620, test=0.603) total time=   0.5s
+[CV 3/10] END C=1.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.619, test=0.625) total time=   0.6s
+[CV 2/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.614) total time= 3.8min
+[CV 9/10] END C=100.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.616) total time=29.3min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 8/10] END C=1.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.620, test=0.619) total time=   2.2s
+[CV 2/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.611) total time=   1.0s
+[CV 5/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.621) total time=   1.2s
+[CV 8/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.620) total time=   0.7s
+[CV 4/10] END C=10.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=10.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.615) total time= 3.5min
+[CV 7/10] END C=100.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.623, test=0.612) total time=30.9min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 10/10] END C=1.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.619, test=0.633) total time=   0.4s
+[CV 3/10] END C=1.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.619, test=0.627) total time=   0.5s
+[CV 2/10] END C=1.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.618, test=0.602) total time=   0.7s
+[CV 6/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.620, test=0.634) total time= 3.7min
+[CV 8/10] END C=100.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.623) total time=31.7min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 2/10] END C=1.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=1.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=1.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.620, test=0.617) total time= 1.5min
+[CV 7/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.623, test=0.612) total time= 2.1min
+[CV 6/10] END C=100.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.619, test=0.630) total time=   1.3s
+[CV 9/10] END C=100.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.618) total time=   1.8s
+[CV 3/10] END C=100.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.629) total time=35.8min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 8/10] END C=1.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=1.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.629) total time= 3.3min
+[CV 8/10] END C=100.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.618) total time=   3.6s
+[CV 3/10] END C=100.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.632) total time=   3.8s
+[CV 7/10] END C=100.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.611) total time=   4.0s
+[CV 4/10] END C=100.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.623) total time=   4.5s
+[CV 6/10] END C=100.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.619, test=0.629) total time=36.0min
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 1/10] END C=1.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.606) total time= 2.2min
+[CV 10/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.632) total time=   2.7s
+[CV 5/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.620) total time= 6.2min
+[CV 8/10] END C=1000.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.623) total time=31.2min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 4/10] END C=1.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.618, test=0.616) total time=   2.7s
+[CV 1/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.614) total time=   1.3s
+[CV 10/10] END C=10.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=10.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=10.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.617) total time= 4.9min
+[CV 1/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.606) total time=   3.2s
+[CV 2/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.614) total time=   3.2s
+[CV 5/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.621) total time=   2.7s
+[CV 7/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.610) total time=   3.6s
+[CV 4/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.623) total time=   4.1s
+[CV 4/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.620, test=0.623) total time=   3.0s
+[CV 1/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.623, test=0.606) total time=34.3min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 6/10] END C=1.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=1.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.618, test=0.616) total time=   2.1s
+[CV 6/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.620, test=0.634) total time=   1.4s
+[CV 1/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.608) total time=   1.0s
+[CV 8/10] END C=10.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=10.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.622) total time= 8.3min
+[CV 9/10] END C=1000.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.616) total time=32.4min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 3/10] END C=1.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.629) total time= 3.5min
+[CV 1/10] END C=100.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.606) total time=   3.2s
+[CV 8/10] END C=100.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.618) total time=   3.7s
+[CV 5/10] END C=100.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.619) total time=38.0min
+[CV 5/10] END C=1.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.618, test=0.620) total time=   1.5s
+[CV 9/10] END C=1.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.618, test=0.618) total time=   0.4s
+[CV 10/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.637) total time=   1.1s
+[CV 4/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.622) total time=   1.0s
+[CV 6/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.620, test=0.634) total time=   1.0s
+[CV 6/10] END C=10.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.620, test=0.631) total time= 5.1min
+[CV 8/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.621) total time=   1.4s
+[CV 1/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.624, test=0.607) total time=   1.4s
+[CV 3/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.633) total time=   1.3s
+[CV 7/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.612) total time=   1.3s
+[CV 9/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.620, test=0.615) total time=   1.5s
+[CV 3/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.628) total time=   1.9s
+[CV 7/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.610) total time=   3.3s
+[CV 5/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.620) total time=36.3min
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 4/10] END C=1.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=1.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.619, test=0.633) total time=   1.6s
+[CV 4/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.622) total time=   1.2s
+[CV 7/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.624, test=0.612) total time= 4.8min
+[CV 9/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.616) total time= 3.3min
+[CV 7/10] END C=1000.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=1000.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=1000.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=1000.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=1000.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=1000.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=1000.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=1000.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.624, test=0.606) total time=33.7min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 3/10] END C=1.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=1.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.618, test=0.616) total time=   1.2s
+[CV 7/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.624, test=0.612) total time= 2.9min
+[CV 8/10] END C=100.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.624) total time= 4.5min
+[CV 1/10] END C=1000.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.624, test=0.606) total time=   1.8s
+[CV 2/10] END C=1000.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.614) total time=   1.7s
+[CV 3/10] END C=1000.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.629) total time=   1.6s
+[CV 4/10] END C=1000.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.623) total time=   1.8s
+[CV 5/10] END C=1000.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.619) total time=   1.7s
+[CV 6/10] END C=1000.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.620, test=0.630) total time=   1.9s
+[CV 7/10] END C=1000.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.611) total time=   1.5s
+[CV 8/10] END C=1000.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.622) total time=   1.3s
+[CV 9/10] END C=1000.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.616) total time=   1.6s
+[CV 10/10] END C=1000.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.631) total time=   1.8s
+[CV 1/10] END C=1000.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.607) total time=   1.2s
+[CV 2/10] END C=1000.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.617) total time=   1.2s
+[CV 3/10] END C=1000.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.634) total time=   1.3s
+[CV 4/10] END C=1000.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.622) total time=   1.2s
+[CV 5/10] END C=1000.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.620, test=0.618) total time=   1.4s
+[CV 6/10] END C=1000.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.620, test=0.631) total time=   1.3s
+[CV 7/10] END C=1000.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.624, test=0.611) total time=   1.5s
+[CV 8/10] END C=1000.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.620) total time=   1.7s
+[CV 9/10] END C=1000.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.617) total time=   1.4s
+[CV 10/10] END C=1000.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.635) total time=   2.1s
+[CV 1/10] END C=1000.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.624, test=0.606) total time=   3.0s
+[CV 3/10] END C=1000.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.629) total time=   6.0s
+[CV 6/10] END C=1000.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.620, test=0.630) total time=   4.6s
+[CV 4/10] END C=1000.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.622) total time=33.8min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 9/10] END C=1.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=1.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.618, test=0.620) total time=   1.5s
+[CV 3/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.608) total time=   0.9s
+[CV 7/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.620, test=0.634) total time= 5.0min
+[CV 3/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.628) total time=   1.6s
+[CV 4/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.620, test=0.623) total time=   2.8s
+[CV 6/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.619, test=0.632) total time=   1.7s
+[CV 10/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.631) total time=   1.4s
+[CV 2/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.617) total time=   1.7s
+[CV 5/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.620, test=0.620) total time=   1.2s
+[CV 8/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.620) total time=   1.4s
+[CV 1/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.606) total time=   1.9s
+[CV 6/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.619, test=0.632) total time=   1.8s
+[CV 4/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.617) total time=37.1min
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 8/10] END C=1.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.618) total time= 2.1min
+[CV 10/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.633) total time=   3.6s
+[CV 7/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.610) total time=   2.7s
+[CV 4/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.622) total time= 5.9min
+[CV 2/10] END C=1000.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.614) total time=   6.2s
+[CV 5/10] END C=1000.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.619) total time=   3.6s
+[CV 1/10] END C=1000.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=1000.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.1s
+[CV 3/10] END C=1000.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=1000.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=1000.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=1000.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=1000.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=1000.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=1000.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=1000.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=1000.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=1000.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=1000.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.629) total time=34.3min
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 5/10] END C=1.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.618, test=0.620) total time=   1.5s
+[CV 4/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.619) total time= 4.5min
+[CV 6/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.619, test=0.630) total time= 4.0min
+[CV 10/10] END C=1000.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.631) total time=34.3min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 2/10] END C=1.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.618, test=0.602) total time=   0.7s
+[CV 5/10] END C=1.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.618, test=0.620) total time=   0.8s
+[CV 6/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.622) total time=   0.9s
+[CV 1/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.623, test=0.605) total time= 4.6min
+[CV 7/10] END C=316.22776601683796, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.623, test=0.611) total time= 1.4min
+[CV 10/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.631) total time=37.6min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 10/10] END C=1.0, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.619, test=0.633) total time=   1.0s
+[CV 10/10] END C=1.0, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.619, test=0.633) total time=   0.8s
+[CV 5/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.621) total time=   1.0s
+[CV 8/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.619) total time= 5.3min
+[CV 9/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.617) total time=   1.3s
+[CV 5/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.629) total time=39.2min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 6/10] END C=1.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.616, test=0.629) total time=   1.8s
+[CV 8/10] END C=1.0, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.620, test=0.620) total time=   0.5s
+[CV 1/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.608) total time=   1.0s
+[CV 3/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.628) total time=   1.2s
+[CV 7/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.614) total time=   0.9s
+[CV 9/10] END C=10.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=10.0, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.607) total time=   2.8s
+[CV 2/10] END C=10.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.613) total time=   2.5s
+[CV 10/10] END C=10.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=10.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.620, test=0.631) total time= 8.0min
+[CV 9/10] END C=1000.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.616) total time=   4.2s
+[CV 5/10] END C=1000.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.620) total time=36.7min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 2/10] END C=1.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.612) total time= 2.6min
+[CV 4/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.624) total time=   5.0s
+[CV 7/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.610) total time=   8.2s
+[CV 1/10] END C=100.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=100.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=100.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=100.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=100.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=100.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=100.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=100.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=100.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=100.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=100.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=100.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.624, test=0.605) total time= 5.3min
+[CV 8/10] END C=1000.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.622) total time=   3.6s
+[CV 8/10] END C=1000.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=1000.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.617) total time=37.0min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 7/10] END C=1.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.615) total time= 2.6min
+[CV 3/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.621, test=0.629) total time=   5.9s
+[CV 8/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.618) total time=   2.8s
+[CV 1/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.606) total time=   1.1s
+[CV 3/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.629) total time=   1.4s
+[CV 5/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.620) total time=   2.0s
+[CV 10/10] END C=31.622776601683793, max_iter=500, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.632) total time=   2.0s
+[CV 5/10] END C=100.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.620) total time= 3.1min
+[CV 9/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.616) total time=39.3min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 9/10] END C=1.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=1.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.636) total time= 1.7min
+[CV 9/10] END C=31.622776601683793, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.616) total time= 4.0min
+[CV 7/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.623, test=0.612) total time=40.1min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:372: FitFailedWarning: 
+280 fits failed out of a total of 840.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+140 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/sklearn/model_selection/_validation.py", line 680, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py", line 1461, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py", line 449, in _check_solver
+    % (solver, penalty)
+ValueError: Solver newton-cg supports only 'l2' or 'none' penalties, got l1 penalty.
+
+--------------------------------------------------------------------------------
+140 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/sklearn/model_selection/_validation.py", line 680, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py", line 1461, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py", line 449, in _check_solver
+    % (solver, penalty)
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+/opt/conda/lib/python3.7/site-packages/sklearn/model_selection/_search.py:972: UserWarning: One or more of the test scores are non-finite: [       nan        nan 0.62073639 0.61765232 0.61773139 0.6177314
+        nan        nan 0.62073639 0.61765232 0.61773139 0.6177314
+        nan        nan 0.62126354 0.62192275 0.62176457 0.6218173
+        nan        nan 0.62123718 0.62192275 0.62179094 0.6218173
+        nan        nan 0.62039358 0.62057807 0.62057805 0.6204463
+        nan        nan 0.62034086 0.62057807 0.62065715 0.6204463
+        nan        nan 0.6200772  0.62031444 0.62084161 0.62031444
+        nan        nan 0.62015629 0.62031444 0.62041988 0.62031444
+        nan        nan 0.62034082 0.61994541 0.62123704 0.61997178
+        nan        nan 0.6203408  0.61994541 0.61997177 0.61997178
+        nan        nan 0.62039354 0.62028815 0.62115792 0.62026179
+        nan        nan 0.62047263 0.62028815 0.62010361 0.62026179
+        nan        nan 0.62034082 0.62007721 0.6213161  0.62005085
+        nan        nan 0.62047263 0.62007721 0.62020903 0.62005085]
+  category=UserWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/model_selection/_search.py:972: UserWarning: One or more of the train scores are non-finite: [       nan        nan 0.6214097  0.61867981 0.61866224 0.61871789
+        nan        nan 0.6214097  0.61867981 0.61866224 0.61871789
+        nan        nan 0.62175826 0.62159131 0.62164696 0.62162352
+        nan        nan 0.62176997 0.62159131 0.62161181 0.62162352
+        nan        nan 0.62169968 0.62171725 0.62186371 0.62172018
+        nan        nan 0.6217319  0.62171725 0.62173776 0.62172018
+        nan        nan 0.62154444 0.62134233 0.62183149 0.62134819
+        nan        nan 0.62157373 0.62134233 0.62132769 0.62134819
+        nan        nan 0.62150343 0.6212486  0.62166746 0.62124274
+        nan        nan 0.62153858 0.6212486  0.62119881 0.62124274
+        nan        nan 0.62151808 0.62135112 0.62189593 0.62135112
+        nan        nan 0.62153272 0.62135112 0.62152393 0.62135112
+        nan        nan 0.62151808 0.62150636 0.62177583 0.62149464
+        nan        nan 0.62153858 0.62150636 0.62154151 0.62149464]
+  category=UserWarning,
+
+Elapsed time gridsearch (min):  50.5318376104037
+=== best estimator ===
+LogisticRegression(C=3.1622776601683795, solver='newton-cg')
+Tuned Hyperparameters (best_params_):
+{'C': 3.1622776601683795, 'max_iter': 100, 'penalty': 'l2', 'solver': 'newton-cg'}
+Accuracy :
+ 0.6219227467405555
+Running the selected model 5 times with different set of edges
+it 0. AUC: 0.6136, AUPR: 0.5701, time: 2.0204670429229736 s
+it 1. AUC: 0.6184, AUPR: 0.5740, time: 3.2848825454711914 s
+it 2. AUC: 0.6279, AUPR: 0.5805, time: 1.8121826648712158 s
+it 3. AUC: 0.6213, AUPR: 0.5761, time: 1.749567985534668 s
+it 4. AUC: 0.6170, AUPR: 0.5728, time: 3.4989020824432373 s
+Final Results drugbank:
+AUC 0.6196372073402235 0.00483089535435648
+AUPR 0.574702561522229 0.0035045394520372653
+Time (s) 3.4989020824432373 0.0
+With the same model, results for BIOSNAP
+it 0. AUC: 0.6209, AUPR: 0.5758, time: 2.165850877761841 s
+it 1. AUC: 0.6144, AUPR: 0.5710, time: 1.6656243801116943 s
+it 2. AUC: 0.6198, AUPR: 0.5750, time: 1.3113505840301514 s
+it 3. AUC: 0.6167, AUPR: 0.5726, time: 1.037682056427002 s
+it 4. AUC: 0.6147, AUPR: 0.5710, time: 1.4951319694519043 s
+Final Results BIOSNAP:
+AUC 0.6173111673292373 0.002627073631425542
+AUPR 0.5730976532957375 0.001994942723075448
+Time (s) 1.4951319694519043 0.0
+[CV 3/10] END C=1.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.619, test=0.625) total time=   0.8s
+[CV 7/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=3.1622776601683795, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.637) total time=   1.3s
+[CV 8/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.620) total time=   1.1s
+[CV 1/10] END C=10.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=10.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=10.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=10.0, max_iter=100, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=10.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=10.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=10.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.623, test=0.612) total time= 1.8min
+[CV 7/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.623, test=0.610) total time=   1.0s
+[CV 9/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.621, test=0.619) total time=   1.1s
+[CV 1/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.623, test=0.607) total time=   1.3s
+[CV 4/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.623) total time=   1.3s
+[CV 6/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.619, test=0.631) total time=   1.3s
+[CV 9/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.621) total time=   1.5s
+[CV 2/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.615) total time=   1.6s
+[CV 4/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.623) total time=   1.4s
+[CV 8/10] END C=31.622776601683793, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.622, test=0.617) total time=   1.4s
+[CV 1/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 3/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 5/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 7/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 9/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 6/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 1/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.623, test=0.605) total time= 6.0min
+[CV 7/10] END C=1000.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.623, test=0.611) total time=   4.9s
+[CV 6/10] END C=1000.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.620, test=0.630) total time=37.7min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 6/10] END C=1.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=1.0, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=1.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 10/10] END C=1.0, max_iter=500, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 2/10] END C=1.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.618, test=0.601) total time=   1.7s
+[CV 3/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.628) total time=   0.8s
+[CV 6/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=newton-cg;, score=(train=nan, test=nan) total time=   0.0s
+[CV 4/10] END C=3.1622776601683795, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.624) total time= 5.8min
+[CV 8/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.623) total time=40.9min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 5/10] END C=1.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.620, test=0.617) total time= 2.3min
+[CV 8/10] END C=31.622776601683793, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.622, test=0.621) total time= 2.9min
+[CV 9/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=newton-cg;, score=(train=0.622, test=0.617) total time=   3.2s
+[CV 6/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=lbfgs;, score=(train=0.620, test=0.632) total time=   2.9s
+[CV 2/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.614) total time=   3.1s
+[CV 10/10] END C=316.22776601683796, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.631) total time=   4.7s
+[CV 6/10] END C=316.22776601683796, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.620, test=0.630) total time=41.5min
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+[CV 1/10] END C=1.0, max_iter=100, penalty=l1, solver=lbfgs;, score=(train=nan, test=nan) total time=   0.0s
+[CV 8/10] END C=1.0, max_iter=500, penalty=l2, solver=newton-cg;, score=(train=0.620, test=0.619) total time=   2.1s
+[CV 10/10] END C=3.1622776601683795, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.637) total time=   0.8s
+[CV 2/10] END C=3.1622776601683795, max_iter=500, penalty=l2, solver=lbfgs;, score=(train=0.622, test=0.611) total time=   1.7s
+[CV 3/10] END C=10.0, max_iter=100, penalty=l1, solver=liblinear;, score=(train=0.621, test=0.628) total time= 8.0min
+[CV 4/10] END C=1000.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.623) total time=   4.4s
+[CV 10/10] END C=1000.0, max_iter=100, penalty=l2, solver=liblinear;, score=(train=0.621, test=0.631) total time=   4.7s
+[CV 7/10] END C=1000.0, max_iter=500, penalty=l1, solver=liblinear;, score=(train=0.623, test=0.612) total time=42.1min
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+/opt/conda/lib/python3.7/site-packages/sklearn/svm/_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,

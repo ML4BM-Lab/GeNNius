@@ -1,0 +1,1868 @@
+Embedding dimension 17
+Repetitions:   0%|          | 0/5 [00:00<?, ?it/s]======================
+Working with DrugBank
+DrugBank
+database DrugBank, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  drugbank
+reading from Data/DRUGBANK/hetero_data_drugbank.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 1.5972, Train: 0.6383, Val: 0.5977, Test: 0.5589
+Epoch: 050, Loss: 0.3799, Train: 0.9166, Val: 0.9222, Test: 0.9226
+Epoch: 100, Loss: 0.3551, Train: 0.9281, Val: 0.9294, Test: 0.9299
+Epoch: 150, Loss: 0.3324, Train: 0.9397, Val: 0.9318, Test: 0.9313
+early stopped at epoch  183
+ 
+Final AUC Train: 0.9462, AUC Val 0.9316,AUC Test: 0.9309
+Final AUPR Train: 0.9457, AUC Val 0.9327,AUC Test: 0.9329
+Elapsed time 0.1213 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR DRUGBANK with hd 17
+DrugBank_WO_BIOSNAP
+database DrugBank_WO_BIOSNAP, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  drugbank_wo_biosnap
+reading from Data/DRUGBANK_WO_BIOSNAP/hetero_data_drugbank_wo_biosnap.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 2.1908, Train: 0.3610, Val: 0.3399, Test: 0.3404
+Epoch: 050, Loss: 0.3632, Train: 0.9280, Val: 0.9236, Test: 0.9341
+Epoch: 100, Loss: 0.3344, Train: 0.9361, Val: 0.9281, Test: 0.9364
+Epoch: 150, Loss: 0.3234, Train: 0.9418, Val: 0.9291, Test: 0.9376
+early stopped at epoch  198
+ 
+Final AUC Train: 0.9491, AUC Val 0.9311,AUC Test: 0.9383
+Final AUPR Train: 0.9481, AUC Val 0.9348,AUC Test: 0.9375
+Elapsed time 0.1054 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR DRUGBANK_WO_BIOSNAP with hd 17
+DrugBank_WO_BindingDB
+database DrugBank_WO_BindingDB, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  drugbank_wo_bindingdb
+reading from Data/DRUGBANK_WO_BINDINGDB/hetero_data_drugbank_wo_bindingdb.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.7889, Train: 0.8554, Val: 0.8604, Test: 0.8585
+Epoch: 050, Loss: 0.3708, Train: 0.9208, Val: 0.9241, Test: 0.9252
+Epoch: 100, Loss: 0.3407, Train: 0.9338, Val: 0.9282, Test: 0.9263
+Epoch: 150, Loss: 0.3099, Train: 0.9486, Val: 0.9339, Test: 0.9353
+early stopped at epoch  167
+ 
+Final AUC Train: 0.9536, AUC Val 0.9324,AUC Test: 0.9332
+Final AUPR Train: 0.9534, AUC Val 0.9369,AUC Test: 0.9325
+Elapsed time 0.1090 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR DRUGBANK_WO_BINDINGDB with hd 17
+DrugBank_WO_Davis
+database DrugBank_WO_Davis, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  drugbank_wo_davis
+reading from Data/DRUGBANK_WO_DAVIS/hetero_data_drugbank_wo_davis.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.7530, Train: 0.8527, Val: 0.8499, Test: 0.8620
+Epoch: 050, Loss: 0.3687, Train: 0.9230, Val: 0.9214, Test: 0.9301
+Epoch: 100, Loss: 0.3239, Train: 0.9414, Val: 0.9256, Test: 0.9348
+early stopped at epoch  103
+ 
+Final AUC Train: 0.9423, AUC Val 0.9221,AUC Test: 0.9288
+Final AUPR Train: 0.9441, AUC Val 0.9169,AUC Test: 0.9298
+Elapsed time 0.0651 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR DRUGBANK_WO_DAVIS with hd 17
+DrugBank_WO_E
+database DrugBank_WO_E, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  drugbank_wo_e
+reading from Data/DRUGBANK_WO_E/hetero_data_drugbank_wo_e.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.7342, Train: 0.6051, Val: 0.6056, Test: 0.5896
+Epoch: 050, Loss: 0.3668, Train: 0.9205, Val: 0.9184, Test: 0.9264
+Epoch: 100, Loss: 0.3376, Train: 0.9366, Val: 0.9258, Test: 0.9354
+early stopped at epoch  127
+ 
+Final AUC Train: 0.9419, AUC Val 0.9240,AUC Test: 0.9362
+Final AUPR Train: 0.9405, AUC Val 0.9227,AUC Test: 0.9391
+Elapsed time 0.0836 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR DRUGBANK_WO_E with hd 17
+DrugBank_WO_GPCR
+database DrugBank_WO_GPCR, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  drugbank_wo_gpcr
+reading from Data/DRUGBANK_WO_GPCR/hetero_data_drugbank_wo_gpcr.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6264, Train: 0.7969, Val: 0.7863, Test: 0.7920
+Epoch: 050, Loss: 0.3817, Train: 0.9214, Val: 0.9254, Test: 0.9238
+Epoch: 100, Loss: 0.3481, Train: 0.9326, Val: 0.9343, Test: 0.9319
+Epoch: 150, Loss: 0.3301, Train: 0.9389, Val: 0.9357, Test: 0.9331
+Epoch: 200, Loss: 0.3358, Train: 0.9399, Val: 0.9306, Test: 0.9262
+Epoch: 250, Loss: 0.3077, Train: 0.9505, Val: 0.9278, Test: 0.9247
+early stopped at epoch  252
+ 
+Final AUC Train: 0.9514, AUC Val 0.9325,AUC Test: 0.9307
+Final AUPR Train: 0.9461, AUC Val 0.9387,AUC Test: 0.9315
+Elapsed time 0.1648 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR DRUGBANK_WO_GPCR with hd 17
+DrugBank_WO_IC
+database DrugBank_WO_IC, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  drugbank_wo_ic
+reading from Data/DRUGBANK_WO_IC/hetero_data_drugbank_wo_ic.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.8291, Train: 0.5775, Val: 0.5901, Test: 0.5965
+Epoch: 050, Loss: 0.3737, Train: 0.9212, Val: 0.9254, Test: 0.9282
+Epoch: 100, Loss: 0.3416, Train: 0.9328, Val: 0.9324, Test: 0.9370
+Epoch: 150, Loss: 0.3179, Train: 0.9430, Val: 0.9334, Test: 0.9406
+early stopped at epoch  165
+ 
+Final AUC Train: 0.9467, AUC Val 0.9309,AUC Test: 0.9387
+Final AUPR Train: 0.9479, AUC Val 0.9297,AUC Test: 0.9390
+Elapsed time 0.1079 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR DRUGBANK_WO_IC with hd 17
+DrugBank_WO_NR
+database DrugBank_WO_NR, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  drugbank_wo_nr
+reading from Data/DRUGBANK_WO_NR/hetero_data_drugbank_wo_nr.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 2.4041, Train: 0.8766, Val: 0.8785, Test: 0.8738
+Epoch: 050, Loss: 0.3609, Train: 0.9237, Val: 0.9235, Test: 0.9255
+Epoch: 100, Loss: 0.3605, Train: 0.9277, Val: 0.9289, Test: 0.9309
+Epoch: 150, Loss: 0.3255, Train: 0.9383, Val: 0.9335, Test: 0.9393
+Epoch: 200, Loss: 0.3109, Train: 0.9486, Val: 0.9327, Test: 0.9389
+early stopped at epoch  215
+ 
+Final AUC Train: 0.9507, AUC Val 0.9316,AUC Test: 0.9380
+Final AUPR Train: 0.9512, AUC Val 0.9376,AUC Test: 0.9385
+Elapsed time 0.1391 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR DRUGBANK_WO_NR with hd 17
+Finished with DrugBank
+======================
+Working with BIOSNAP
+BIOSNAP_WO_DrugBank
+database BIOSNAP_WO_DrugBank, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  biosnap_wo_drugbank
+reading from Data/BIOSNAP_WO_DRUGBANK/hetero_data_biosnap_wo_drugbank.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6146, Train: 0.8470, Val: 0.8422, Test: 0.8386
+Epoch: 050, Loss: 0.3070, Train: 0.9480, Val: 0.9495, Test: 0.9461
+early stopped at epoch  81
+ 
+Final AUC Train: 0.9602, AUC Val 0.9453,AUC Test: 0.9454
+Final AUPR Train: 0.9575, AUC Val 0.9425,AUC Test: 0.9483
+Elapsed time 0.0381 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR BIOSNAP_WO_DRUGBANK with hd 17
+BIOSNAP
+database BIOSNAP, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  biosnap
+reading from Data/BIOSNAP/hetero_data_biosnap.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 1.1482, Train: 0.8450, Val: 0.8696, Test: 0.8613
+Epoch: 050, Loss: 0.4488, Train: 0.8787, Val: 0.9098, Test: 0.8974
+Epoch: 100, Loss: 0.4173, Train: 0.8955, Val: 0.9244, Test: 0.9138
+Epoch: 150, Loss: 0.3910, Train: 0.9122, Val: 0.9249, Test: 0.9194
+Epoch: 200, Loss: 0.3523, Train: 0.9353, Val: 0.9217, Test: 0.9170
+early stopped at epoch  219
+ 
+Final AUC Train: 0.9426, AUC Val 0.9180,AUC Test: 0.9142
+Final AUPR Train: 0.9435, AUC Val 0.9264,AUC Test: 0.9219
+Elapsed time 0.1353 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR BIOSNAP with hd 17
+BIOSNAP_WO_BindingDB
+database BIOSNAP_WO_BindingDB, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  biosnap_wo_bindingdb
+reading from Data/BIOSNAP_WO_BINDINGDB/hetero_data_biosnap_wo_bindingdb.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 1.3048, Train: 0.6496, Val: 0.6219, Test: 0.6102
+Epoch: 050, Loss: 0.3776, Train: 0.9175, Val: 0.9118, Test: 0.9223
+Epoch: 100, Loss: 0.3448, Train: 0.9276, Val: 0.9180, Test: 0.9286
+Epoch: 150, Loss: 0.3238, Train: 0.9376, Val: 0.9230, Test: 0.9328
+early stopped at epoch  153
+ 
+Final AUC Train: 0.9383, AUC Val 0.9219,AUC Test: 0.9306
+Final AUPR Train: 0.9455, AUC Val 0.9238,AUC Test: 0.9355
+Elapsed time 0.0905 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR BIOSNAP_WO_BINDINGDB with hd 17
+BIOSNAP_WO_Davis
+database BIOSNAP_WO_Davis, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  biosnap_wo_davis
+reading from Data/BIOSNAP_WO_DAVIS/hetero_data_biosnap_wo_davis.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 2.7990, Train: 0.4424, Val: 0.3495, Test: 0.3465
+Epoch: 050, Loss: 0.3978, Train: 0.9059, Val: 0.8928, Test: 0.9006
+Epoch: 100, Loss: 0.3717, Train: 0.9212, Val: 0.9037, Test: 0.9104
+early stopped at epoch  114
+ 
+Final AUC Train: 0.9252, AUC Val 0.9036,AUC Test: 0.9103
+Final AUPR Train: 0.9306, AUC Val 0.9117,AUC Test: 0.9155
+Elapsed time 0.0726 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR BIOSNAP_WO_DAVIS with hd 17
+BIOSNAP_WO_E
+database BIOSNAP_WO_E, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  biosnap_wo_e
+reading from Data/BIOSNAP_WO_E/hetero_data_biosnap_wo_e.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 1.0493, Train: 0.8429, Val: 0.8379, Test: 0.8487
+Epoch: 050, Loss: 0.3653, Train: 0.9210, Val: 0.9139, Test: 0.9240
+Epoch: 100, Loss: 0.3387, Train: 0.9366, Val: 0.9181, Test: 0.9307
+early stopped at epoch  115
+ 
+Final AUC Train: 0.9410, AUC Val 0.9181,AUC Test: 0.9308
+Final AUPR Train: 0.9456, AUC Val 0.9271,AUC Test: 0.9348
+Elapsed time 0.0668 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR BIOSNAP_WO_E with hd 17
+BIOSNAP_WO_GPCR
+database BIOSNAP_WO_GPCR, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  biosnap_wo_gpcr
+reading from Data/BIOSNAP_WO_GPCR/hetero_data_biosnap_wo_gpcr.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.5987, Train: 0.8575, Val: 0.8634, Test: 0.8616
+Epoch: 050, Loss: 0.3620, Train: 0.9250, Val: 0.9187, Test: 0.9200
+early stopped at epoch  74
+ 
+Final AUC Train: 0.9418, AUC Val 0.9209,AUC Test: 0.9231
+Final AUPR Train: 0.9453, AUC Val 0.9242,AUC Test: 0.9287
+Elapsed time 0.0440 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR BIOSNAP_WO_GPCR with hd 17
+BIOSNAP_WO_IC
+database BIOSNAP_WO_IC, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  biosnap_wo_ic
+reading from Data/BIOSNAP_WO_IC/hetero_data_biosnap_wo_ic.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6053, Train: 0.2512, Val: 0.2675, Test: 0.2697
+Epoch: 050, Loss: 0.3903, Train: 0.9144, Val: 0.9046, Test: 0.9134
+early stopped at epoch  93
+ 
+Final AUC Train: 0.9293, AUC Val 0.9116,AUC Test: 0.9211
+Final AUPR Train: 0.9333, AUC Val 0.9126,AUC Test: 0.9220
+Elapsed time 0.0551 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR BIOSNAP_WO_IC with hd 17
+BIOSNAP_WO_NR
+database BIOSNAP_WO_NR, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  biosnap_wo_nr
+reading from Data/BIOSNAP_WO_NR/hetero_data_biosnap_wo_nr.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 1.0696, Train: 0.7997, Val: 0.8019, Test: 0.8043
+Epoch: 050, Loss: 0.4077, Train: 0.9043, Val: 0.9140, Test: 0.9228
+Epoch: 100, Loss: 0.3815, Train: 0.9176, Val: 0.9224, Test: 0.9311
+Epoch: 150, Loss: 0.3540, Train: 0.9316, Val: 0.9241, Test: 0.9361
+early stopped at epoch  173
+ 
+Final AUC Train: 0.9405, AUC Val 0.9207,AUC Test: 0.9323
+Final AUPR Train: 0.9427, AUC Val 0.9248,AUC Test: 0.9357
+Elapsed time 0.1011 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR BIOSNAP_WO_NR with hd 17
+Finished with BIOSNAP
+======================
+Working with BindingDB
+BindingDB_WO_DrugBank
+database BindingDB_WO_DrugBank, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  bindingdb_wo_drugbank
+reading from Data/BINDINGDB_WO_DRUGBANK/hetero_data_bindingdb_wo_drugbank.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6035, Train: 0.7304, Val: 0.7254, Test: 0.7370
+Epoch: 050, Loss: 0.2949, Train: 0.9533, Val: 0.9469, Test: 0.9559
+early stopped at epoch  87
+ 
+Final AUC Train: 0.9652, AUC Val 0.9484,AUC Test: 0.9597
+Final AUPR Train: 0.9651, AUC Val 0.9467,AUC Test: 0.9567
+Elapsed time 0.0434 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR BINDINGDB_WO_DRUGBANK with hd 17
+BindingDB_WO_BIOSNAP
+database BindingDB_WO_BIOSNAP, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  bindingdb_wo_biosnap
+reading from Data/BINDINGDB_WO_BIOSNAP/hetero_data_bindingdb_wo_biosnap.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 1.2864, Train: 0.8389, Val: 0.8024, Test: 0.8326
+early stopped at epoch  41
+ 
+Final AUC Train: 0.9413, AUC Val 0.9206,AUC Test: 0.9500
+Final AUPR Train: 0.9469, AUC Val 0.9197,AUC Test: 0.9436
+Elapsed time 0.0205 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR BINDINGDB_WO_BIOSNAP with hd 17
+BindingDB
+database BindingDB, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  bindingdb
+reading from Data/BINDINGDB/hetero_data_bindingdb.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6151, Train: 0.7797, Val: 0.7308, Test: 0.7417
+early stopped at epoch  41
+ 
+Final AUC Train: 0.9449, AUC Val 0.9091,AUC Test: 0.9379
+Final AUPR Train: 0.9439, AUC Val 0.9042,AUC Test: 0.9332
+Elapsed time 0.0207 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR BINDINGDB with hd 17
+BindingDB_WO_Davis
+database BindingDB_WO_Davis, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  bindingdb_wo_davis
+reading from Data/BINDINGDB_WO_DAVIS/hetero_data_bindingdb_wo_davis.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.5810, Train: 0.2450, Val: 0.2183, Test: 0.2600
+Epoch: 050, Loss: 0.3461, Train: 0.9345, Val: 0.9391, Test: 0.9433
+Epoch: 100, Loss: 0.3128, Train: 0.9445, Val: 0.9415, Test: 0.9431
+early stopped at epoch  148
+ 
+Final AUC Train: 0.9536, AUC Val 0.9198,AUC Test: 0.9260
+Final AUPR Train: 0.9528, AUC Val 0.9185,AUC Test: 0.9267
+Elapsed time 0.0723 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR BINDINGDB_WO_DAVIS with hd 17
+BindingDB_WO_E
+database BindingDB_WO_E, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  bindingdb_wo_e
+reading from Data/BINDINGDB_WO_E/hetero_data_bindingdb_wo_e.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.5838, Train: 0.8306, Val: 0.8563, Test: 0.8414
+Epoch: 050, Loss: 0.3575, Train: 0.9302, Val: 0.9391, Test: 0.9436
+Epoch: 100, Loss: 0.2908, Train: 0.9548, Val: 0.9466, Test: 0.9549
+early stopped at epoch  118
+ 
+Final AUC Train: 0.9627, AUC Val 0.9468,AUC Test: 0.9557
+Final AUPR Train: 0.9600, AUC Val 0.9442,AUC Test: 0.9520
+Elapsed time 0.0581 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR BINDINGDB_WO_E with hd 17
+BindingDB_WO_GPCR
+database BindingDB_WO_GPCR, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  bindingdb_wo_gpcr
+reading from Data/BINDINGDB_WO_GPCR/hetero_data_bindingdb_wo_gpcr.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.7328, Train: 0.8527, Val: 0.8522, Test: 0.8441
+Epoch: 050, Loss: 0.3225, Train: 0.9399, Val: 0.9439, Test: 0.9421
+Epoch: 100, Loss: 0.2868, Train: 0.9564, Val: 0.9514, Test: 0.9529
+early stopped at epoch  140
+ 
+Final AUC Train: 0.9641, AUC Val 0.9502,AUC Test: 0.9505
+Final AUPR Train: 0.9635, AUC Val 0.9481,AUC Test: 0.9480
+Elapsed time 0.0693 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR BINDINGDB_WO_GPCR with hd 17
+BindingDB_WO_IC
+database BindingDB_WO_IC, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  bindingdb_wo_ic
+reading from Data/BINDINGDB_WO_IC/hetero_data_bindingdb_wo_ic.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.7795, Train: 0.4401, Val: 0.4013, Test: 0.4042
+Epoch: 050, Loss: 0.3459, Train: 0.9316, Val: 0.9437, Test: 0.9484
+Epoch: 100, Loss: 0.3085, Train: 0.9485, Val: 0.9491, Test: 0.9580
+Epoch: 150, Loss: 0.2781, Train: 0.9652, Val: 0.9512, Test: 0.9552
+early stopped at epoch  162
+ 
+Final AUC Train: 0.9657, AUC Val 0.9511,AUC Test: 0.9562
+Final AUPR Train: 0.9626, AUC Val 0.9492,AUC Test: 0.9580
+Elapsed time 0.0805 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR BINDINGDB_WO_IC with hd 17
+BindingDB_WO_NR
+database BindingDB_WO_NR, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  bindingdb_wo_nr
+reading from Data/BINDINGDB_WO_NR/hetero_data_bindingdb_wo_nr.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6058, Train: 0.8788, Val: 0.8733, Test: 0.8649
+early stopped at epoch  42
+ 
+Final AUC Train: 0.9515, AUC Val 0.9494,AUC Test: 0.9510
+Final AUPR Train: 0.9532, AUC Val 0.9479,AUC Test: 0.9482
+Elapsed time 0.0211 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR BINDINGDB_WO_NR with hd 17
+Finished with BindingDB
+======================
+Working with Davis
+Davis_WO_DrugBank
+database Davis_WO_DrugBank, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  davis_wo_drugbank
+reading from Data/DAVIS_WO_DRUGBANK/hetero_data_davis_wo_drugbank.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6918, Train: 0.7438, Val: 0.8438, Test: 0.6250
+early stopped at epoch  41
+ 
+Final AUC Train: 1.0000, AUC Val 0.5938,AUC Test: 0.6797
+Final AUPR Train: 1.0000, AUC Val 0.6344,AUC Test: 0.6308
+Elapsed time 0.0157 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR DAVIS_WO_DRUGBANK with hd 17
+Davis_WO_BIOSNAP
+database Davis_WO_BIOSNAP, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  davis_wo_biosnap
+reading from Data/DAVIS_WO_BIOSNAP/hetero_data_davis_wo_biosnap.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6987, Train: 0.5868, Val: 0.8281, Test: 0.6797
+early stopped at epoch  41
+ 
+Final AUC Train: 1.0000, AUC Val 0.4375,AUC Test: 0.7148
+Final AUPR Train: 1.0000, AUC Val 0.5485,AUC Test: 0.7727
+Elapsed time 0.0153 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR DAVIS_WO_BIOSNAP with hd 17
+Davis_WO_BindingDB
+database Davis_WO_BindingDB, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  davis_wo_bindingdb
+reading from Data/DAVIS_WO_BINDINGDB/hetero_data_davis_wo_bindingdb.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.8955, Train: 0.0000, Val: 0.0000, Test: 0.6667
+early stopped at epoch  41
+ 
+Final AUC Train: 1.0000, AUC Val 1.0000,AUC Test: 0.5556
+Final AUPR Train: 1.0000, AUC Val 1.0000,AUC Test: 0.7000
+Elapsed time 0.0150 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR DAVIS_WO_BINDINGDB with hd 17
+Davis
+database Davis, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  davis
+reading from Data/DAVIS/hetero_data_davis.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6798, Train: 0.7292, Val: 0.7031, Test: 0.7439
+early stopped at epoch  41
+ 
+Final AUC Train: 1.0000, AUC Val 0.7969,AUC Test: 0.7855
+Final AUPR Train: 1.0000, AUC Val 0.8613,AUC Test: 0.7545
+Elapsed time 0.0155 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR DAVIS with hd 17
+Davis_WO_E
+database Davis_WO_E, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  davis_wo_e
+reading from Data/DAVIS_WO_E/hetero_data_davis_wo_e.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6706, Train: 0.8472, Val: 0.6250, Test: 0.7439
+early stopped at epoch  41
+ 
+Final AUC Train: 1.0000, AUC Val 0.9062,AUC Test: 0.6782
+Final AUPR Train: 1.0000, AUC Val 0.9203,AUC Test: 0.6459
+Elapsed time 0.0159 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR DAVIS_WO_E with hd 17
+Davis_WO_GPCR
+database Davis_WO_GPCR, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  davis_wo_gpcr
+reading from Data/DAVIS_WO_GPCR/hetero_data_davis_wo_gpcr.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6884, Train: 0.8403, Val: 0.8438, Test: 0.6505
+early stopped at epoch  41
+ 
+Final AUC Train: 1.0000, AUC Val 0.7500,AUC Test: 0.6315
+Final AUPR Train: 1.0000, AUC Val 0.8571,AUC Test: 0.6459
+Elapsed time 0.0158 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR DAVIS_WO_GPCR with hd 17
+Davis_WO_IC
+database Davis_WO_IC, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  davis_wo_ic
+reading from Data/DAVIS_WO_IC/hetero_data_davis_wo_ic.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.7103, Train: 0.6389, Val: 0.3750, Test: 0.6228
+early stopped at epoch  41
+ 
+Final AUC Train: 1.0000, AUC Val 0.7188,AUC Test: 0.7578
+Final AUPR Train: 1.0000, AUC Val 0.8167,AUC Test: 0.7555
+Elapsed time 0.0157 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR DAVIS_WO_IC with hd 17
+Davis_WO_NR
+database Davis_WO_NR, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  davis_wo_nr
+reading from Data/DAVIS_WO_NR/hetero_data_davis_wo_nr.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6924, Train: 0.6806, Val: 0.5938, Test: 0.5779
+early stopped at epoch  41
+ 
+Final AUC Train: 0.9931, AUC Val 0.5625,AUC Test: 0.6228
+Final AUPR Train: 0.9936, AUC Val 0.5531,AUC Test: 0.7113
+Elapsed time 0.0156 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR DAVIS_WO_NR with hd 17
+Finished with Davis
+======================
+Working with E
+E_WO_DrugBank
+database E_WO_DrugBank, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  e_wo_drugbank
+reading from Data/E_WO_DRUGBANK/hetero_data_e_wo_drugbank.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6972, Train: 0.7466, Val: 0.7417, Test: 0.7793
+early stopped at epoch  41
+ 
+Final AUC Train: 0.9531, AUC Val 0.9317,AUC Test: 0.9376
+Final AUPR Train: 0.9487, AUC Val 0.9353,AUC Test: 0.9313
+Elapsed time 0.0189 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR E_WO_DRUGBANK with hd 17
+E_WO_BIOSNAP
+database E_WO_BIOSNAP, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  e_wo_biosnap
+reading from Data/E_WO_BIOSNAP/hetero_data_e_wo_biosnap.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6684, Train: 0.8226, Val: 0.8076, Test: 0.8120
+early stopped at epoch  41
+ 
+Final AUC Train: 0.9743, AUC Val 0.8815,AUC Test: 0.9546
+Final AUPR Train: 0.9766, AUC Val 0.8520,AUC Test: 0.9462
+Elapsed time 0.0188 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR E_WO_BIOSNAP with hd 17
+E_WO_BindingDB
+database E_WO_BindingDB, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  e_wo_bindingdb
+reading from Data/E_WO_BINDINGDB/hetero_data_e_wo_bindingdb.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6215, Train: 0.8206, Val: 0.7737, Test: 0.8229
+early stopped at epoch  41
+ 
+Final AUC Train: 0.9685, AUC Val 0.9209,AUC Test: 0.9295
+Final AUPR Train: 0.9676, AUC Val 0.9120,AUC Test: 0.9202
+Elapsed time 0.0186 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR E_WO_BINDINGDB with hd 17
+E_WO_Davis
+database E_WO_Davis, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  e_wo_davis
+reading from Data/E_WO_DAVIS/hetero_data_e_wo_davis.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.8952, Train: 0.8110, Val: 0.7888, Test: 0.8358
+early stopped at epoch  41
+ 
+Final AUC Train: 0.9417, AUC Val 0.9091,AUC Test: 0.9358
+Final AUPR Train: 0.9408, AUC Val 0.9020,AUC Test: 0.9248
+Elapsed time 0.0187 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR E_WO_DAVIS with hd 17
+E
+database E, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  e
+reading from Data/E/hetero_data_e.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.7915, Train: 0.8197, Val: 0.8229, Test: 0.7981
+Epoch: 050, Loss: 0.2997, Train: 0.9583, Val: 0.9444, Test: 0.9110
+early stopped at epoch  60
+ 
+Final AUC Train: 0.9574, AUC Val 0.9328,AUC Test: 0.9038
+Final AUPR Train: 0.9567, AUC Val 0.9406,AUC Test: 0.8976
+Elapsed time 0.0275 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR E with hd 17
+E_WO_GPCR
+database E_WO_GPCR, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  e_wo_gpcr
+reading from Data/E_WO_GPCR/hetero_data_e_wo_gpcr.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6914, Train: 0.8344, Val: 0.8154, Test: 0.8293
+early stopped at epoch  41
+ 
+Final AUC Train: 0.9714, AUC Val 0.9116,AUC Test: 0.9386
+Final AUPR Train: 0.9693, AUC Val 0.8956,AUC Test: 0.9286
+Elapsed time 0.0189 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR E_WO_GPCR with hd 17
+E_WO_IC
+database E_WO_IC, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  e_wo_ic
+reading from Data/E_WO_IC/hetero_data_e_wo_ic.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.7527, Train: 0.8591, Val: 0.8219, Test: 0.8157
+early stopped at epoch  41
+ 
+Final AUC Train: 0.9637, AUC Val 0.9117,AUC Test: 0.9267
+Final AUPR Train: 0.9671, AUC Val 0.9199,AUC Test: 0.9137
+Elapsed time 0.0191 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR E_WO_IC with hd 17
+E_WO_NR
+database E_WO_NR, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  e_wo_nr
+reading from Data/E_WO_NR/hetero_data_e_wo_nr.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6480, Train: 0.8447, Val: 0.8194, Test: 0.8318
+early stopped at epoch  41
+ 
+Final AUC Train: 0.9731, AUC Val 0.9171,AUC Test: 0.9327
+Final AUPR Train: 0.9724, AUC Val 0.8749,AUC Test: 0.9215
+Elapsed time 0.0188 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR E_WO_NR with hd 17
+Finished with E
+======================
+Working with GPCR
+GPCR_WO_DrugBank
+database GPCR_WO_DrugBank, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  gpcr_wo_drugbank
+reading from Data/GPCR_WO_DRUGBANK/hetero_data_gpcr_wo_drugbank.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6908, Train: 0.4529, Val: 0.4335, Test: 0.4074
+early stopped at epoch  41
+ 
+Final AUC Train: 0.9430, AUC Val 0.8162,AUC Test: 0.7737
+Final AUPR Train: 0.9423, AUC Val 0.8111,AUC Test: 0.7785
+Elapsed time 0.0172 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR GPCR_WO_DRUGBANK with hd 17
+GPCR_WO_BIOSNAP
+database GPCR_WO_BIOSNAP, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  gpcr_wo_biosnap
+reading from Data/GPCR_WO_BIOSNAP/hetero_data_gpcr_wo_biosnap.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6804, Train: 0.5360, Val: 0.4897, Test: 0.4880
+early stopped at epoch  41
+ 
+Final AUC Train: 0.9737, AUC Val 0.7421,AUC Test: 0.8354
+Final AUPR Train: 0.9755, AUC Val 0.7358,AUC Test: 0.8180
+Elapsed time 0.0181 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR GPCR_WO_BIOSNAP with hd 17
+GPCR_WO_BindingDB
+database GPCR_WO_BindingDB, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  gpcr_wo_bindingdb
+reading from Data/GPCR_WO_BINDINGDB/hetero_data_gpcr_wo_bindingdb.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.8616, Train: 0.5544, Val: 0.6520, Test: 0.4886
+early stopped at epoch  41
+ 
+Final AUC Train: 0.9304, AUC Val 0.8611,AUC Test: 0.8374
+Final AUPR Train: 0.9144, AUC Val 0.8608,AUC Test: 0.8024
+Elapsed time 0.0184 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR GPCR_WO_BINDINGDB with hd 17
+GPCR_WO_Davis
+database GPCR_WO_Davis, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  gpcr_wo_davis
+reading from Data/GPCR_WO_DAVIS/hetero_data_gpcr_wo_davis.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6771, Train: 0.8431, Val: 0.7377, Test: 0.7409
+early stopped at epoch  41
+ 
+Final AUC Train: 0.9319, AUC Val 0.7670,AUC Test: 0.8127
+Final AUPR Train: 0.9382, AUC Val 0.7685,AUC Test: 0.8188
+Elapsed time 0.0185 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR GPCR_WO_DAVIS with hd 17
+GPCR_WO_E
+database GPCR_WO_E, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  gpcr_wo_e
+reading from Data/GPCR_WO_E/hetero_data_gpcr_wo_e.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.7324, Train: 0.3372, Val: 0.2469, Test: 0.2501
+early stopped at epoch  48
+ 
+Final AUC Train: 0.8812, AUC Val 0.7415,AUC Test: 0.6185
+Final AUPR Train: 0.8600, AUC Val 0.7844,AUC Test: 0.6701
+Elapsed time 0.0215 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR GPCR_WO_E with hd 17
+GPCR
+database GPCR, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  gpcr
+reading from Data/GPCR/hetero_data_gpcr.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.7321, Train: 0.7447, Val: 0.8796, Test: 0.8444
+early stopped at epoch  41
+ 
+Final AUC Train: 0.9146, AUC Val 0.8866,AUC Test: 0.8780
+Final AUPR Train: 0.9176, AUC Val 0.8811,AUC Test: 0.8841
+Elapsed time 0.0185 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR GPCR with hd 17
+GPCR_WO_IC
+database GPCR_WO_IC, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  gpcr_wo_ic
+reading from Data/GPCR_WO_IC/hetero_data_gpcr_wo_ic.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.7169, Train: 0.2960, Val: 0.4236, Test: 0.2672
+early stopped at epoch  41
+ 
+Final AUC Train: 0.9266, AUC Val 0.8272,AUC Test: 0.8484
+Final AUPR Train: 0.9281, AUC Val 0.8207,AUC Test: 0.8414
+Elapsed time 0.0181 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR GPCR_WO_IC with hd 17
+GPCR_WO_NR
+database GPCR_WO_NR, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  gpcr_wo_nr
+reading from Data/GPCR_WO_NR/hetero_data_gpcr_wo_nr.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.7134, Train: 0.7928, Val: 0.7623, Test: 0.7754
+early stopped at epoch  41
+ 
+Final AUC Train: 0.9908, AUC Val 0.8673,AUC Test: 0.8445
+Final AUPR Train: 0.9902, AUC Val 0.8585,AUC Test: 0.8252
+Elapsed time 0.0187 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR GPCR_WO_NR with hd 17
+Finished with GPCR
+======================
+Working with IC
+IC_WO_DrugBank
+database IC_WO_DrugBank, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  ic_wo_drugbank
+reading from Data/IC_WO_DRUGBANK/hetero_data_ic_wo_drugbank.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6585, Train: 0.6960, Val: 0.7073, Test: 0.7284
+early stopped at epoch  41
+ 
+Final AUC Train: 0.8864, AUC Val 0.8523,AUC Test: 0.8709
+Final AUPR Train: 0.8882, AUC Val 0.8091,AUC Test: 0.8842
+Elapsed time 0.0189 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR IC_WO_DRUGBANK with hd 17
+IC_WO_BIOSNAP
+database IC_WO_BIOSNAP, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  ic_wo_biosnap
+reading from Data/IC_WO_BIOSNAP/hetero_data_ic_wo_biosnap.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6635, Train: 0.8269, Val: 0.8580, Test: 0.8522
+Epoch: 050, Loss: 0.4139, Train: 0.8949, Val: 0.8816, Test: 0.8689
+early stopped at epoch  55
+ 
+Final AUC Train: 0.8904, AUC Val 0.8830,AUC Test: 0.8672
+Final AUPR Train: 0.8692, AUC Val 0.8869,AUC Test: 0.8769
+Elapsed time 0.0250 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR IC_WO_BIOSNAP with hd 17
+IC_WO_BindingDB
+database IC_WO_BindingDB, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  ic_wo_bindingdb
+reading from Data/IC_WO_BINDINGDB/hetero_data_ic_wo_bindingdb.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.8078, Train: 0.7656, Val: 0.7675, Test: 0.8097
+Epoch: 050, Loss: 0.4685, Train: 0.8664, Val: 0.8640, Test: 0.8626
+early stopped at epoch  58
+ 
+Final AUC Train: 0.8768, AUC Val 0.8643,AUC Test: 0.8627
+Final AUPR Train: 0.8726, AUC Val 0.8122,AUC Test: 0.8452
+Elapsed time 0.0268 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR IC_WO_BINDINGDB with hd 17
+IC_WO_Davis
+database IC_WO_Davis, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  ic_wo_davis
+reading from Data/IC_WO_DAVIS/hetero_data_ic_wo_davis.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.8583, Train: 0.8022, Val: 0.8591, Test: 0.7744
+Epoch: 050, Loss: 0.4654, Train: 0.8747, Val: 0.9200, Test: 0.8508
+Epoch: 100, Loss: 0.4023, Train: 0.9108, Val: 0.9064, Test: 0.8572
+early stopped at epoch  120
+ 
+Final AUC Train: 0.9235, AUC Val 0.9027,AUC Test: 0.8700
+Final AUPR Train: 0.9294, AUC Val 0.9162,AUC Test: 0.8575
+Elapsed time 0.0537 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR IC_WO_DAVIS with hd 17
+IC_WO_E
+database IC_WO_E, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  ic_wo_e
+reading from Data/IC_WO_E/hetero_data_ic_wo_e.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.7970, Train: 0.7559, Val: 0.7460, Test: 0.7822
+early stopped at epoch  41
+ 
+Final AUC Train: 0.8894, AUC Val 0.8333,AUC Test: 0.8240
+Final AUPR Train: 0.9001, AUC Val 0.8478,AUC Test: 0.7905
+Elapsed time 0.0190 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR IC_WO_E with hd 17
+IC_WO_GPCR
+database IC_WO_GPCR, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  ic_wo_gpcr
+reading from Data/IC_WO_GPCR/hetero_data_ic_wo_gpcr.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 1.0853, Train: 0.4865, Val: 0.5271, Test: 0.4545
+early stopped at epoch  41
+ 
+Final AUC Train: 0.9087, AUC Val 0.8723,AUC Test: 0.8342
+Final AUPR Train: 0.9128, AUC Val 0.8718,AUC Test: 0.8089
+Elapsed time 0.0185 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR IC_WO_GPCR with hd 17
+IC
+database IC, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  ic
+reading from Data/IC/hetero_data_ic.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6799, Train: 0.8474, Val: 0.8248, Test: 0.8090
+Epoch: 050, Loss: 0.4626, Train: 0.8821, Val: 0.8795, Test: 0.8510
+early stopped at epoch  67
+ 
+Final AUC Train: 0.9172, AUC Val 0.8773,AUC Test: 0.8517
+Final AUPR Train: 0.9127, AUC Val 0.8551,AUC Test: 0.8459
+Elapsed time 0.0298 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR IC with hd 17
+IC_WO_NR
+database IC_WO_NR, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  ic_wo_nr
+reading from Data/IC_WO_NR/hetero_data_ic_wo_nr.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 1.4984, Train: 0.6410, Val: 0.6346, Test: 0.6465
+Epoch: 050, Loss: 0.4395, Train: 0.8814, Val: 0.8690, Test: 0.8086
+early stopped at epoch  72
+ 
+Final AUC Train: 0.9032, AUC Val 0.8654,AUC Test: 0.8189
+Final AUPR Train: 0.9067, AUC Val 0.8776,AUC Test: 0.7746
+Elapsed time 0.0329 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR IC_WO_NR with hd 17
+Finished with IC
+======================
+Working with NR
+NR_WO_DrugBank
+database NR_WO_DrugBank, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  nr_wo_drugbank
+reading from Data/NR_WO_DRUGBANK/hetero_data_nr_wo_drugbank.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Traceback (most recent call last):
+  File "/wdir/Baselines/pretrain_protemb/Code/main.py", line 213, in <module>
+    main()
+  File "/wdir/Baselines/pretrain_protemb/Code/main.py", line 155, in main
+    val_auc, _, _, val_loss, val_aupr = test(val_data)
+  File "/opt/conda/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/wdir/Baselines/pretrain_protemb/Code/main.py", line 78, in test
+    auc = roc_auc_score(target.cpu().numpy(), out.detach().cpu().numpy())
+  File "/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_ranking.py", line 550, in roc_auc_score
+    y_true = check_array(y_true, ensure_2d=False, dtype=None)
+  File "/opt/conda/lib/python3.10/site-packages/sklearn/utils/validation.py", line 931, in check_array
+    raise ValueError(
+ValueError: Found array with 0 sample(s) (shape=(0,)) while a minimum of 1 is required.
+NR_WO_BIOSNAP
+database NR_WO_BIOSNAP, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  nr_wo_biosnap
+reading from Data/NR_WO_BIOSNAP/hetero_data_nr_wo_biosnap.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.7076, Train: 1.0000, Val: 0.0000, Test: 0.0000
+early stopped at epoch  41
+ 
+Final AUC Train: 1.0000, AUC Val 0.0000,AUC Test: 0.7500
+Final AUPR Train: 1.0000, AUC Val 0.5000,AUC Test: 0.6667
+Elapsed time 0.0149 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR NR_WO_BIOSNAP with hd 17
+NR_WO_BindingDB
+database NR_WO_BindingDB, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  nr_wo_bindingdb
+reading from Data/NR_WO_BINDINGDB/hetero_data_nr_wo_bindingdb.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6963, Train: 1.0000, Val: 1.0000, Test: 0.3750
+Epoch: 050, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+Epoch: 100, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+Epoch: 150, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+Epoch: 200, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+Epoch: 250, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+Epoch: 300, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+Epoch: 350, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+Epoch: 400, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+Epoch: 450, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+Epoch: 500, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+Epoch: 550, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+Epoch: 600, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+Epoch: 650, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+Epoch: 700, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+Epoch: 750, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+Epoch: 800, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+Epoch: 850, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+Epoch: 900, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+Epoch: 950, Loss: 0.0000, Train: 1.0000, Val: 1.0000, Test: 0.3438
+ 
+Final AUC Train: 1.0000, AUC Val 1.0000,AUC Test: 0.3438
+Final AUPR Train: 1.0000, AUC Val 1.0000,AUC Test: 0.4750
+Elapsed time 0.3637 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR NR_WO_BINDINGDB with hd 17
+NR_WO_Davis
+database NR_WO_Davis, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  nr_wo_davis
+reading from Data/NR_WO_DAVIS/hetero_data_nr_wo_davis.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6680, Train: 0.7778, Val: 1.0000, Test: 0.3750
+early stopped at epoch  41
+ 
+Final AUC Train: 1.0000, AUC Val 1.0000,AUC Test: 0.5000
+Final AUPR Train: 1.0000, AUC Val 1.0000,AUC Test: 0.7321
+Elapsed time 0.0152 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR NR_WO_DAVIS with hd 17
+NR_WO_E
+database NR_WO_E, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  nr_wo_e
+reading from Data/NR_WO_E/hetero_data_nr_wo_e.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.7033, Train: 1.0000, Val: 1.0000, Test: 0.8125
+early stopped at epoch  41
+ 
+Final AUC Train: 1.0000, AUC Val 1.0000,AUC Test: 1.0000
+Final AUPR Train: 1.0000, AUC Val 1.0000,AUC Test: 1.0000
+Elapsed time 0.0154 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR NR_WO_E with hd 17
+NR_WO_GPCR
+database NR_WO_GPCR, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  nr_wo_gpcr
+reading from Data/NR_WO_GPCR/hetero_data_nr_wo_gpcr.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.7026, Train: 1.0000, Val: 0.7500, Test: 0.7500
+early stopped at epoch  41
+ 
+Final AUC Train: 1.0000, AUC Val 0.5000,AUC Test: 0.6875
+Final AUPR Train: 1.0000, AUC Val 0.7500,AUC Test: 0.6500
+Elapsed time 0.0154 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR NR_WO_GPCR with hd 17
+NR_WO_IC
+database NR_WO_IC, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  nr_wo_ic
+reading from Data/NR_WO_IC/hetero_data_nr_wo_ic.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6938, Train: 0.7778, Val: 1.0000, Test: 0.6250
+early stopped at epoch  41
+ 
+Final AUC Train: 1.0000, AUC Val 1.0000,AUC Test: 0.5938
+Final AUPR Train: 1.0000, AUC Val 1.0000,AUC Test: 0.5667
+Elapsed time 0.0155 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR NR_WO_IC with hd 17
+NR
+database NR, hidden_channels 17
+[INFO] hidden channels: 17]
+Dataset:  nr
+reading from Data/NR/hetero_data_nr.pt
+hd:  17
+cuda
+Data is cuda?: True
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Epoch: 000, Loss: 0.6964, Train: 1.0000, Val: 1.0000, Test: 0.8125
+early stopped at epoch  41
+ 
+Final AUC Train: 1.0000, AUC Val 1.0000,AUC Test: 0.7500
+Final AUPR Train: 1.0000, AUC Val 1.0000,AUC Test: 0.8304
+Elapsed time 0.0158 min
+plotting loss over epochs
+plotting loss over epochs
+plotting loss over epochs
+EXIT CODE 0 FOR NR with hd 17
+Finished with NR
+Using trained: DrugBank
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in DrugBank, evaluating in DrugBank, AUC: 0.947561, AUPR: 0.945191
+Using trained: drugbank_wo_biosnap
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in DrugBank, evaluating in BIOSNAP, AUC: 0.942594, AUPR: 0.937799
+Using trained: drugbank_wo_bindingdb
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in DrugBank, evaluating in BindingDB, AUC: 0.955797, AUPR: 0.951786
+Using trained: drugbank_wo_davis
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in DrugBank, evaluating in Davis, AUC: 0.815576, AUPR: 0.767901
+Using trained: drugbank_wo_e
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in DrugBank, evaluating in E, AUC: 0.84576, AUPR: 0.836744
+Using trained: drugbank_wo_gpcr
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in DrugBank, evaluating in GPCR, AUC: 0.88907, AUPR: 0.890009
+Using trained: drugbank_wo_ic
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in DrugBank, evaluating in IC, AUC: 0.880331, AUPR: 0.867921
+Using trained: drugbank_wo_nr
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in DrugBank, evaluating in NR, AUC: 0.744802, AUPR: 0.638839
+Using trained: biosnap_wo_drugbank
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in BIOSNAP, evaluating in DrugBank, AUC: 0.925663, AUPR: 0.926097
+Using trained: BIOSNAP
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in BIOSNAP, evaluating in BIOSNAP, AUC: 0.936276, AUPR: 0.935616
+Using trained: biosnap_wo_bindingdb
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in BIOSNAP, evaluating in BindingDB, AUC: 0.950833, AUPR: 0.951224
+Using trained: biosnap_wo_davis
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in BIOSNAP, evaluating in Davis, AUC: 0.734586, AUPR: 0.698488
+Using trained: biosnap_wo_e
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in BIOSNAP, evaluating in E, AUC: 0.928823, AUPR: 0.92394
+Using trained: biosnap_wo_gpcr
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in BIOSNAP, evaluating in GPCR, AUC: 0.898084, AUPR: 0.895129
+Using trained: biosnap_wo_ic
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in BIOSNAP, evaluating in IC, AUC: 0.883274, AUPR: 0.873365
+Using trained: biosnap_wo_nr
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in BIOSNAP, evaluating in NR, AUC: 0.863894, AUPR: 0.732401
+Using trained: bindingdb_wo_drugbank
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in BindingDB, evaluating in DrugBank, AUC: 0.910579, AUPR: 0.919264
+Using trained: bindingdb_wo_biosnap
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in BindingDB, evaluating in BIOSNAP, AUC: 0.915837, AUPR: 0.910672
+Using trained: BindingDB
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in BindingDB, evaluating in BindingDB, AUC: 0.948165, AUPR: 0.940202
+Using trained: bindingdb_wo_davis
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in BindingDB, evaluating in Davis, AUC: 0.861682, AUPR: 0.856897
+Using trained: bindingdb_wo_e
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in BindingDB, evaluating in E, AUC: 0.908878, AUPR: 0.903401
+Using trained: bindingdb_wo_gpcr
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in BindingDB, evaluating in GPCR, AUC: 0.792477, AUPR: 0.800583
+Using trained: bindingdb_wo_ic
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in BindingDB, evaluating in IC, AUC: 0.810158, AUPR: 0.766104
+Using trained: bindingdb_wo_nr
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in BindingDB, evaluating in NR, AUC: 0.714556, AUPR: 0.605967
+Using trained: davis_wo_drugbank
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in Davis, evaluating in DrugBank, AUC: 0.82353, AUPR: 0.754673
+Using trained: davis_wo_biosnap
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in Davis, evaluating in BIOSNAP, AUC: 0.314744, AUPR: 0.490123
+Using trained: davis_wo_bindingdb
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in Davis, evaluating in BindingDB, AUC: 0.906115, AUPR: 0.875287
+Using trained: Davis
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in Davis, evaluating in Davis, AUC: 0.830314, AUPR: 0.785758
+Using trained: davis_wo_e
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in Davis, evaluating in E, AUC: 0.394831, AUPR: 0.47076
+Using trained: davis_wo_gpcr
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in Davis, evaluating in GPCR, AUC: 0.778872, AUPR: 0.822034
+Using trained: davis_wo_ic
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in Davis, evaluating in IC, AUC: 0.675141, AUPR: 0.713535
+Using trained: davis_wo_nr
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in Davis, evaluating in NR, AUC: 0.844991, AUPR: 0.792961
+Using trained: e_wo_drugbank
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in E, evaluating in DrugBank, AUC: 0.850541, AUPR: 0.870334
+Using trained: e_wo_biosnap
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in E, evaluating in BIOSNAP, AUC: 0.684689, AUPR: 0.769211
+Using trained: e_wo_bindingdb
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in E, evaluating in BindingDB, AUC: 0.93604, AUPR: 0.92926
+Using trained: e_wo_davis
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in E, evaluating in Davis, AUC: 0.878583, AUPR: 0.880732
+Using trained: E
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in E, evaluating in E, AUC: 0.943811, AUPR: 0.930121
+Using trained: e_wo_gpcr
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in E, evaluating in GPCR, AUC: 0.905776, AUPR: 0.906964
+Using trained: e_wo_ic
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in E, evaluating in IC, AUC: 0.855175, AUPR: 0.834676
+Using trained: e_wo_nr
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in E, evaluating in NR, AUC: 0.822306, AUPR: 0.825574
+Using trained: gpcr_wo_drugbank
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in GPCR, evaluating in DrugBank, AUC: 0.631786, AUPR: 0.741653
+Using trained: gpcr_wo_biosnap
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in GPCR, evaluating in BIOSNAP, AUC: 0.747209, AUPR: 0.811042
+Using trained: gpcr_wo_bindingdb
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in GPCR, evaluating in BindingDB, AUC: 0.918137, AUPR: 0.91073
+Using trained: gpcr_wo_davis
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in GPCR, evaluating in Davis, AUC: 0.807734, AUPR: 0.82102
+Using trained: gpcr_wo_e
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in GPCR, evaluating in E, AUC: 0.747404, AUPR: 0.764898
+Using trained: GPCR
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in GPCR, evaluating in GPCR, AUC: 0.890262, AUPR: 0.881577
+Using trained: gpcr_wo_ic
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in GPCR, evaluating in IC, AUC: 0.849461, AUPR: 0.815789
+Using trained: gpcr_wo_nr
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in GPCR, evaluating in NR, AUC: 0.839319, AUPR: 0.872
+Using trained: ic_wo_drugbank
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in IC, evaluating in DrugBank, AUC: 0.934525, AUPR: 0.926364
+Using trained: ic_wo_biosnap
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in IC, evaluating in BIOSNAP, AUC: 0.907913, AUPR: 0.906861
+Using trained: ic_wo_bindingdb
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in IC, evaluating in BindingDB, AUC: 0.921736, AUPR: 0.919448
+Using trained: ic_wo_davis
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in IC, evaluating in Davis, AUC: 0.836398, AUPR: 0.802829
+Using trained: ic_wo_e
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in IC, evaluating in E, AUC: 0.899, AUPR: 0.893199
+Using trained: ic_wo_gpcr
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in IC, evaluating in GPCR, AUC: 0.817268, AUPR: 0.795442
+Using trained: IC
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in IC, evaluating in IC, AUC: 0.894353, AUPR: 0.883301
+Using trained: ic_wo_nr
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Trained in IC, evaluating in NR, AUC: 0.759924, AUPR: 0.786147
+Using trained: nr_wo_drugbank
+init layer 1 :  Proxy(conv_in)
+med layer 2 Proxy(conv_med)
+med layer 3 Proxy(conv_med_1)
+final layer 4:  Proxy(conv_out)
+Repetitions:   0%|          | 0/5 [11:04<?, ?it/s]
+Traceback (most recent call last):
+  File "/wdir/Baselines/pretrain_protemb/Code/execute4generalization.py", line 90, in <module>
+    auc, aupr = sh_evaluation(DATABASE_TRAINED= dataset_trained, DATABASE_EVAL= dataset_evaluated,  hd= hidden_channels)
+  File "/wdir/Baselines/pretrain_protemb/Code/function4testdata.py", line 59, in sh_evaluation
+    model.load_state_dict(torch.load(PATH_MODEL))
+  File "/opt/conda/lib/python3.10/site-packages/torch/serialization.py", line 791, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/opt/conda/lib/python3.10/site-packages/torch/serialization.py", line 271, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/opt/conda/lib/python3.10/site-packages/torch/serialization.py", line 252, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'Results/NR_WO_DRUGBANK_17/model.pt'

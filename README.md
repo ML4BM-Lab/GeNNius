@@ -135,9 +135,45 @@ python3 Code/execute4generalization.py
 This code generates a heatmap similar to the one presented in the article.
 
 
+## t-SNES
+
+Look code in Code/tsnes
+for annotations
+```
+retrieve_annots_drugs.py
+retrieve_annots_proteins.py
+```
+For plots:
+
+```
+colors_dict.py # this only the dict of colors
+plot_tsnes_paper_feat.py
+plot_tsnes_paper_embedding.py
+tsne_pos_neg_val.py
+```
+
 ## Add baselines here as well and generalization baselines
 
+Folder Baselines/
+includes pretrain protein embeddings
 
+simple_baselines/
+includes the code for logistic regresion and random forest, the results in tsv of the gridsearch and of the model, and the generalization heatmap of the later (results in baseline_generalization/). 
+
+
+feature_corr/
+includes code to check correlations in features and heatmap of results
+
+
+pretrain_protemb/
+includes the test with protein embeddings downloades from uniprot
+```
+Code/data_preprocessing_prot.py # preprocess the code by downloading from .h5 file from uniprot
+```
+Once this step is done, the rest of the code is similar to that in main. 
+In generalization, NR removed because errors (not enough edges to train). 
+
+You need to download the .h5 file from [Uniprot](https://www.uniprot.org/help/embeddings). We used the version available on March 2023.
 
 ## GridSearch
 
