@@ -7,7 +7,13 @@ from tqdm import tqdm
 
 # load 
 
-PATH_OUT = 'Results/5th_validation/'
+PATH_OUT = 'Results/inferring_dtis/'
+
+
+if not os.path.exists(PATH_OUT):
+    os.makedirs(PATH_OUT)
+    print(f"Folder '{PATH_OUT}' created successfully.")
+    
 
 datasets = ['DrugBank', 'BIOSNAP', 'BindingDB', 'Davis', 'E', 'GPCR', 'IC', 'NR']
 

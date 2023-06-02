@@ -134,7 +134,8 @@ hd = 17 # hidden dimensions
 
 device = 'cuda'
 
-PATH_VAL = 'Results/5th_validation/' # path for validation files
+
+PATH_VAL = 'Results/inferring_dtis/' # path for validation files
 
 ####################################################
 ####################################################
@@ -297,3 +298,6 @@ results.to_csv(os.path.join(PATH_VAL, filename), sep="\t", index=None)
 predicted_rate_05 = round(sum([1 if value>=0.5 else 0 for value in out])/len(out), 4)
 print(f'WITH THRESHOLD 0.5 predicted {predicted_rate_05}')
 
+
+with open(os.path.join(PATH_VAL, f'{dataset}_statistics_results.txt'), 'a') as f:
+    f.write(f'{predicted_rate_05:.4f}\n')

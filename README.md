@@ -111,9 +111,12 @@ We can run
 python3 Code/validation.py
 ```
 in it need to specify the dti dataset in L126.
-Will retrieve the results in a tsv file.
+Will retrieve the results in a tsv file. Please here modify in L126 the dataset you select for evaluation (will be updated to parse it).
 
-
+If you run this for all datasets (and the repetitions you want, we did 10), and want to reproduce the figure from the main text, run the code:
+```
+figure_boxplot_inferring_dtis.py
+```
 
 ## Testing generalization capabilities of GeNNius
 
