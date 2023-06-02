@@ -169,6 +169,7 @@ Code/data_preprocessing_prot.py # preprocess the code by downloading from .h5 fi
 ```
 Once this step is done, the rest of the code is similar to that in main. 
 In generalization, NR removed because errors (not enough edges to train). 
+This code can be executed from pretrain_protemb.
 
 You need to download the .h5 file from [Uniprot](https://www.uniprot.org/help/embeddings). We used the version available on March 2023.
 

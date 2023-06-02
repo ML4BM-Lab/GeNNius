@@ -86,7 +86,6 @@ def sh_evaluation(DATABASE_TRAINED, DATABASE_EVAL, hd= 8):
 ###########################################################
 
 
-
 """
 # Example
 
