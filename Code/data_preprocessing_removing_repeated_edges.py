@@ -120,7 +120,7 @@ def main():
     dti_test = dti_test.drop_duplicates(keep='first')
     
     on = ['Drug', 'Protein']
-    dti = dti.merge(dti_test[on], on=on, how='left', indicator=True).query('_merge == "left_only"').drop('_merge', 1)
+    dti = dti.merge(dti_test[on], on=on, how='left', indicator=True).query('_merge == "left_only"').drop('_merge', axis=1)
 
     # Creating a new df as may be drugs/proteins missing => drop row
     new_df = dti[dti.Drug.isin(available_drugs) & dti.Protein.isin(available_proteins)]

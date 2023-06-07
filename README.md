@@ -118,6 +118,7 @@ If you run this for all datasets (and the repetitions you want, we did 10), and 
 figure_boxplot_inferring_dtis.py
 ```
 
+
 ## Testing generalization capabilities of GeNNius
 
 First, need preprocessing of all datasets removing edges(with data_preprocessing_removing_repeated_edges.py for each 2 datasets).

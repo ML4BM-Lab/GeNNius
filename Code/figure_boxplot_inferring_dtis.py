@@ -40,7 +40,7 @@ boxplot.set_ylabel( "Ratio of positive edges detected", fontsize = 24)
 boxplot.set_xticklabels(x_ticks, fontsize = 20)
 boxplot.set_yticklabels([str(round(i,1)) for i in boxplot.get_yticks()], fontsize = 20)
 #plt.savefig('Results/inferring_dtis/boxplot_10runs.pdf', dpi=330 ,bbox_inches='tight',  pad_inches = 0.25)
-plt.savefig('Results/inferring_dtis/boxplot_validation_th05.pdf', dpi=330 ,bbox_inches='tight',  pad_inches = 0.25)
+plt.savefig('Results/inferring_dtis/boxplot_validation.pdf', dpi=330 ,bbox_inches='tight',  pad_inches = 0.25)
 
 exit(0)
 
