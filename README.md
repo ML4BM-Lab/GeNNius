@@ -1,6 +1,8 @@
 # GeNNius
 GeNNius: An ultrafast drug-target interaction inference method based on graph neural networks
 
+This model has been publised in Bioinformatics (January 2024), you can find the full publication here: https://doi.org/10.1093/bioinformatics/btad774
+
 ## Abstract
 **Motivation**: 
 Drug-target interaction (DTI) prediction is a relevant but challenging task in the drug repurposing field. In-silico approaches have drawn particular attention as they can reduce associated costs and time commitment of traditional methodologies. Yet, current state-of-the-art methods present several limitations: existing DTI prediction approaches are computationally expensive, thereby hindering the ability to use large networks and exploit available datasets; the generalization to unseen datasets of DTI prediction methods remains unexplored, which could potentially improve the development processes of DTI inferring approaches in terms of accuracy and robustness.
